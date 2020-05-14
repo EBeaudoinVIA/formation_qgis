@@ -15,5 +15,4 @@ weight: 2
 ---
 
 
-ksjdhfkjdshfkj
-akjsdhkjasdh
+Avant de s'Attaquer à QGIS, il y a des notions qu'on doit couvrir. Ces sujets s'avère très important, il est essentiel de bien les comprendre, n'hésitez pas à revenir à ces pages au courant de la formation pour vous rafraîchir la mémoire.

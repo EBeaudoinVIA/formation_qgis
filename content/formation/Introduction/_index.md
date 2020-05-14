@@ -19,12 +19,14 @@ La documentation pour la formation sur QGIS pour les conseillers agricole, ne vi
 
 ## Comment utiliser la documentation
 
-Dans la section formation, j'ai séparé la formation 
+Dans la section formation, j'ai mis ce que je considérais comme le minimum requis pour pouvoir travailler avec QGIS. Dans la section Articles, je donne davantage mon opinion, ce ne sont pas des éléments essentiel, mais des recommandations.
+
+Au fur et à mesure que les captation vidéo seront disponible, les liens seront disponible dans les pages de formation.
 
 
 ## Crédits
 
-La documentation est largement inspirée du document Documentation de QGIS 3.10 https://docs.qgis.org/3.10/fr/docs/index.html de 	
+La documentation est largement inspirée de la Documentation de QGIS 3.10 https://docs.qgis.org/3.10/fr/docs/index.html de 	
 Tim Sutton, Otto Dassau, Marcelle Sutton, Lerato Nsibande, Sibongile Mthombeni ainsi que d'un grand nombre de collaborateurs et de traducteurs. https://docs.qgis.org/3.10/fr/docs/user_manual/preamble/contributors.html
 
 
