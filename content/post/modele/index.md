@@ -1,4 +1,3 @@
-
 ---
 title: Utiliser des modèles pour accélérer notre travail
 author: admin
@@ -12,7 +11,7 @@ authors: []
 lastmod: '2020-05-14T09:55:17-04:00'
 featured: no
 image:
-  caption: 'Crédit photo: [**Rock'n Roll Monkey**](https://unsplash.com/photos/R4WCbazrD1g)'
+  caption: '[**Rock'n Roll Monkey**](https://unsplash.com/photos/R4WCbazrD1g)'
   placement: 3
 projects: []
 ---
