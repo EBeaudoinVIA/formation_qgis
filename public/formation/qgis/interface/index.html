@@ -1,0 +1,936 @@
+<!DOCTYPE html><html lang="fr-ca" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Cédric Bouffard, agronome">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Barre de menu La barre de menu permet d’accéder aux fonctions de QGIS à l’aide de menus hiérarchiques standards. La plupart des options de menu ont un outil correspondant et vice-versa.">
+
+  
+  <link rel="alternate" hreflang="fr-ca" href="/formation/qgis/interface/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#589632">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/formation/qgis/interface/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="QGIS pour les conseillers agricole">
+  <meta property="og:url" content="/formation/qgis/interface/">
+  <meta property="og:title" content="Interface | QGIS pour les conseillers agricole">
+  <meta property="og:description" content="Barre de menu La barre de menu permet d’accéder aux fonctions de QGIS à l’aide de menus hiérarchiques standards. La plupart des options de menu ont un outil correspondant et vice-versa."><meta property="og:image" content="/img/qgis-icon-white128.png">
+  <meta property="twitter:image" content="/img/qgis-icon-white128.png"><meta property="og:locale" content="fr-ca">
+  
+    
+      <meta property="article:published_time" content="2019-05-05T00:00:00&#43;01:00">
+    
+    <meta property="article:modified_time" content="2019-05-05T00:00:00&#43;01:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Interface | QGIS pour les conseillers agricole</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Rechercher</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Recherche..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">QGIS pour les conseillers agricole</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Ouvrir la barre de navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">QGIS pour les conseillers agricole</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#hero"><span>Accueil</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#articles"><span>Articles</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/formation/"><span>Formation</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+  
+    
+  
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Recherche..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/formation/introduction/">Introduction</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/formation/introduction/pourquoi_utiliser_sig/">Pourquoi utiliser un SIG comme agronome?</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/formation/principe_de_base/">Principes de base</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/formation/principe_de_base/projections/">Projections</a>
+      </li>
+      
+      <li >
+        <a href="/formation/principe_de_base/lexique/">Lexique</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/formation/qgis/">QGIS</a>
+    <ul class="nav docs-sidenav">
+      
+      <li class="active">
+        <a href="/formation/qgis/interface/">Interface</a>
+      </li>
+      
+      <li >
+        <a href="/formation/qgis/projet/">Projet</a>
+      </li>
+      
+      <li >
+        <a href="/formation/qgis/navigation/">Navigation</a>
+      </li>
+      
+      <li >
+        <a href="/formation/qgis/attributs/">Table d&#39;attributs</a>
+      </li>
+      
+      <li >
+        <a href="/formation/qgis/numerisation/">Numérisation</a>
+      </li>
+      
+      <li >
+        <a href="/formation/qgis/edition/">Édition</a>
+      </li>
+      
+      <li >
+        <a href="/formation/qgis/style/">Style</a>
+      </li>
+      
+      <li >
+        <a href="/formation/qgis/mise_en_page/">Mise en page</a>
+      </li>
+      
+      <li >
+        <a href="/formation/qgis/traitement/">Traitement</a>
+      </li>
+      
+      <li >
+        <a href="/formation/qgis/extensions/">Extensions</a>
+      </li>
+      
+      <li >
+        <a href="/formation/qgis/sources_donnees/">Sources de données</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Dans cette page</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#barre-de-menu">Barre de menu</a>
+      <ul>
+        <li><a href="#projet">Projet</a></li>
+        <li><a href="#editer">Editer</a></li>
+        <li><a href="#vue">Vue</a></li>
+        <li><a href="#couche">Couche</a></li>
+        <li><a href="#préférences">Préférences</a></li>
+        <li><a href="#extensions">Extensions</a></li>
+        <li><a href="#vecteur">Vecteur</a></li>
+        <li><a href="#raster">Raster</a></li>
+      </ul>
+    </li>
+    <li><a href="#barres-doutils">Barres d’outils</a></li>
+    <li><a href="#explorateur">Explorateur</a></li>
+    <li><a href="#couches">Couches</a></li>
+    <li><a href="#barre-détat">Barre d’état</a></li>
+    <li><a href="#boîte-à-outils">Boîte à outils</a></li>
+    <li><a href="#sélection-du-projet">Sélection du projet</a></li>
+    <li><a href="#ajouter-la-barre-de-numérisation-avancée">Ajouter la barre de numérisation avancée</a></li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          <h1>Interface</h1>
+
+          <div class="article-style">
+            <h2 id="barre-de-menu">Barre de menu</h2>
+<p><img src="/img/img/interface/barre_menu.png" alt=""></p>
+<p>La barre de menu permet d’accéder aux fonctions de QGIS à l’aide de menus hiérarchiques standards.
+La plupart des options de menu ont un outil correspondant et vice-versa. Cependant, les menus ne sont pas organisés exactement comme les barres d’outils. L’emplacement des options de menu dans les barres d’outils est indiqué dans le tableau ci-dessous. Les extensions peuvent ajouter de nouvelles options aux menus.</p>
+<h3 id="projet">Projet</h3>
+<p>Le menu Projet fournit les points d’accès et de sortie du fichier projet. Il fournit les outils pour :</p>
+<ul>
+<li>
+<p>Créer un Nouveau fichier de projet à partir de zéro ou en utilisant un autre fichier projet comme modèle.</p>
+</li>
+<li>
+<p>Ouvrir un projet à partir d’un fichier, un GeoPackage ou une base de données PostgreSQL</p>
+</li>
+<li>
+<p>Fermer un projet ou le ramener à son dernier état sauvegardé</p>
+</li>
+<li>
+<p>Enregistrer un projet au format .qgs ou .qgz, dans un fichier ou dans un GeoPackage ou une base de données PostgreSQL</p>
+</li>
+<li>
+<p>Exporter le canevas de carte dans différents formats ou utiliser les mises en page pour des sorties plus complexes.</p>
+</li>
+<li>
+<p>Régler les propriétés du projet et les options d’accrochage pour l’édition de la géométrie.</p>
+</li>
+</ul>
+<h3 id="editer">Editer</h3>
+<p>Le menu Editer fournit la plupart des outils natifs nécessaires pour éditer les attributs ou la géométrie des couches.</p>
+<h3 id="vue">Vue</h3>
+<p>Créez de nouvelles vues cartographiques 2D ou 3D à côté du caneva de carte principal.</p>
+<ul>
+<li>
+<p>Zoomer ou se déplacer n’importe où</p>
+</li>
+<li>
+<p>Interroger les attributs ou la géométrie des entités affichés</p>
+</li>
+<li>
+<p>Améliorez l’affichage de la carte avec des modes de prévisualisation, des annotations ou des décorations.</p>
+</li>
+</ul>
+<p>Accédez à n’importe quel panneau ou barre d’outils</p>
+<p>Le menu vous permet également de réorganiser l’interface QGIS elle-même à l’aide d’actions telles que :</p>
+<ul>
+<li>
+<p>Basculer en mode plein écran: couvre tout l’écran tout en masquant la barre de titre</p>
+</li>
+<li>
+<p>Basculer la visibilité des panneaux: affiche ou masque les panneaux activés - utile lors de la numérisation d’entités (pour une visibilité maximale du caneva) ainsi que pour les présentations (projetées/enregistrées) utilisant le caneva principal de QGIS</p>
+</li>
+<li>
+<p>Basculer en affichage carte plein écran : cache les panneaux, les barres d’outils, les menus et la barre d’état et affiche uniquement le canevas de la carte. Combiné avec l’option plein écran, il permet à votre écran d’afficher uniquement la carte.</p>
+</li>
+</ul>
+<h3 id="couche">Couche</h3>
+<p>Le menu Couche fournit un grand nombre d’outils pour créer de nouvelles sources de données, Les ajouter au projet ou enregistrer leurs modifications.</p>
+<h3 id="préférences">Préférences</h3>
+<p>Permet d&rsquo;accéder à différents menus d&rsquo;options.</p>
+<h3 id="extensions">Extensions</h3>
+<p>Le menu extension permet de télécharger, de désactiver, de mettre à jour des extensions. De plus, certaines extensions seront ajouter à ce menu une fois installée</p>
+<h3 id="vecteur">Vecteur</h3>
+<p>Par défaut, QGIS ajoute des algorithmes de Processing au menu Vecteur, groupés par sous-menus. Cela fournit des raccourcis pour de nombreuses tâches SIG vectorielles courantes de différents fournisseurs de traitements.</p>
+<h3 id="raster">Raster</h3>
+<p>Par défaut, QGIS ajoute des algorithmes de Processing au menu Raster, groupés par sous-menus. Il s’agit d’un raccourci pour de nombreuses tâches SIG raster courantes de différents fournisseurs de traitements.</p>
+<h2 id="barres-doutils">Barres d’outils</h2>
+<p><img src="/img/img/interface/barre_outils.png" alt=""></p>
+<p>Les barres d’outils permettent d’accéder à la plupart des fonctions des menus, ainsi qu’à des outils supplémentaires pour interagir avec la carte. Chaque barre d’outils dispose d’une aide contextuelle. Passez votre souris sur l’élément et une courte description de l’objectif de l’outil s’affichera.</p>
+<p>Chaque barre d’outils peut être déplacée selon vos besoins. Vous pouvez les désactiver à partir du menu contextuel qui s’affiche d’un clic droit de la souris sur la barre d’outils.</p>
+<h2 id="explorateur">Explorateur</h2>
+<p><img src="/img/img/interface/explorateur.png" alt=""></p>
+<p>L&rsquo;explorateur  est l’un des principaux moyens d’ajouter rapidement et facilement vos données à des projets.</p>
+<h2 id="couches">Couches</h2>
+<p><img src="/img/img/interface/gestionnaire_couches.png" alt=""></p>
+<p>Par défaut, les couches montrées dans le canevas de la carte sont dessinés suivant l’ordre dans le panneau de Couches : plus haut est la couche dans le panneau, plus il sera élevé (donc plus visible) dans la vue de la carte</p>
+<h2 id="barre-détat">Barre d’état</h2>
+<p><img src="/img/img/interface/barre_etat.png" alt=""></p>
+<p>La barre d’état vous fournit des informations générales sur le visualiseur de carte et les actions traitées ou disponibles, et vous offre des outils pour gérer le visualiseur de carte.</p>
+<p>Sur le côté gauche de la barre d’état, la barre de localisation, un widget de recherche rapide, vous aide à trouver et à exécuter toutes les fonctions ou options du QGIS. Tapez simplement le texte associé à l’élément que vous recherchez (nom, tag, mot-clé…) et vous obtenez une liste qui se met à jour au fur et à mesure que vous écrivez. Vous pouvez également limiter la portée de la recherche en utilisant les filtres de localisation. Cliquez sur le bouton search pour sélectionner l’un d’entre eux et appuyez sur Configurer pour avoir les paramètres globaux.</p>
+<p>Dans la zone située à côté de la barre de localisation, un résumé des actions que vous avez effectuées s’affichera si nécessaire (comme la sélection d’entités dans un calque, la suppression d’un calque) ou une description longue de l’outil sur lequel vous passez la souris (non disponible pour l’ensemble des outils).</p>
+<p>En cas d’opérations de longue durée, telles que la collecte de statistiques de couches raster, l’exécution d’algorithmes de traitement ou le rendu de plusieurs couches dans la vue de carte, une barre de progression est affichée dans la barre d’état.</p>
+<p>A côté de l’affichage des coordonnées se trouve l’affichage Echelle. Il montre l’échelle de la carte. Il y a un sélecteur qui vous permet de choisir des échelles prédéfinies et personnalisées.</p>
+<p>À droite de la loupe, vous pouvez définir un angle de rotation horaire en degrés à appliquer à la carte.</p>
+<p>Sur le côté droit de la barre d’état, il y a une petite case à cocher qui peut être utilisée temporairement pour empêcher le rendu des couches dans le Visualisateur de carte .</p>
+<p>A droite des fonctions de rendu, vous trouvez le bouton projectionEnabled code EPSG montrant le SCR du projet courant. Cliquer sur ce bouton ouvre la boîte de dialogue Propriétés du projet et vous permet d’appliquer un autre SCR.</p>
+<h2 id="boîte-à-outils">Boîte à outils</h2>
+<p><img src="/img/img/interface/boite_outils.png" alt=""></p>
+<p>La Boîte à outils de traitement est l’élément principal de l’interface graphique de traitement, et celui que vous êtes le plus susceptible d’utiliser dans votre travail quotidien. Il affiche la liste de tous les algorithmes disponibles regroupés dans différents blocs appelés Fournisseurs, et modèles et scripts personnalisés que vous pouvez ajouter pour étendre l’ensemble des outils. La boîte à outils est donc le point d’accès pour les exécuter, que ce soit en tant que processus unique ou en tant que processus par lots impliquant plusieurs exécutions du même algorithme sur différents ensembles d’entrées.</p>
+<p>::: notes
+Il est possible que vous ne voyez pas cette barre. Nous aborderons le sujet plus tard.
+:::</p>
+<h2 id="sélection-du-projet">Sélection du projet</h2>
+<p><img src="/img/img/interface/menu_projet.png" alt=""></p>
+<p>La fenêtre de sélection de projet apparaît lorsqu&rsquo;on démarre qgis sans démarrer de projet. Il indique les derniers projet ouvert. C&rsquo;est une façon rapide de rouvrir un prjet récent. Une fois un projet choisi ou suite à l&rsquo;ajout d&rsquo;une couche, cette fenêtre laisse place au canvas de la carte.</p>
+<p>::: notes
+Parfois un autres boîtes est présente indiquant les nouvelles versions ou les évènements à venir
+:::</p>
+<h2 id="ajouter-la-barre-de-numérisation-avancée">Ajouter la barre de numérisation avancée</h2>
+<p><img src="/img/img/misc/numerisation_avancee.png" alt=""></p>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Suivant</div>
+    <a href="/formation/qgis/projet/" rel="prev">Projet</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Dernière mise à jour le May 5, 2019</p>
+
+          
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+
+
+  <p class="powered-by">
+    
+
+    Réalisé avec le thème 
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic</a> pour
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+         
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"Aucun résultat n'a été trouvé","placeholder":"Recherche...","results":"Résultats trouvés"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projets",
+        'publication' : "Publications",
+        'talk' : "Présentations"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citation</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copier
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Télécharger
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
