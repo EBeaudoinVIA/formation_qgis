@@ -21,7 +21,7 @@ La table d’attributs affiche des informations sur les entités d’un calque s
 
 ## Ouvrir la table d'attribut
 
-Pour ouvrir la table attributaire d’une couche vectorielle, activez la couche en cliquant dessus depuis le panneau Couches. Puis dans le menu Couche, cliquez sur ![](/img/img/bouton/mActionOpenTable.png) Ouvrir la table d’attributs. Vous pouvez aussi y accéder avec un clic droit sur la couche puis en sélectionnant ![](/img/img/bouton/mActionOpenTable.png) Ouvrir la table d’attributs ou en cliquant sur le bouton ![](/img/img/bouton/mActionOpenTable.png) Ouvrir la table d’attributs dans la barre d’outils des Attributs. 
+Pour ouvrir la table attributaire d’une couche vectorielle, activez la couche en cliquant dessus depuis le panneau Couches. Puis dans le menu Couche, cliquez sur ![](/img/img/bouton/mActionOpenTable.png?display=inline-block) Ouvrir la table d’attributs. Vous pouvez aussi y accéder avec un clic droit sur la couche puis en sélectionnant ![](/img/img/bouton/mActionOpenTable.png) Ouvrir la table d’attributs ou en cliquant sur le bouton ![](/img/img/bouton/mActionOpenTable.png) Ouvrir la table d’attributs dans la barre d’outils des Attributs. 
 
 
 ![](/img/gif/ouvrir_table_attributs.gif)
