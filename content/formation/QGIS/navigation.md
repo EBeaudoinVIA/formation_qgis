@@ -21,7 +21,6 @@ Il est possible de modifier l'affichage des couches en cochant ou décochant les
 
 ## Se déplacer sur la carte
 
-![](/img/gif/deplacement.gif)
 
 {{< figure library="true" src="gif/deplacement.gif" title="Se déplacer sur la carte" lightbox="true" >}}
 
