@@ -13,25 +13,36 @@ weight: 5
 ---
 ## Ajout de couches
 
-* Explorateur
-* Menu - Couche
-* *Drag and Drop*
+ Une des premières tâches que vous allez faire sur QGIS est d'ajouter une couche. Il existe plusieurs méthodes pour en ajouter, aucune n'est vraiment meilleure qu'une autre, c'est selon votre préférence.
+ 
+ 
+### *Drag and Drop*
 
-## Explorateur
+
+Une des façons les plus simples d'ajouter une couche dans le projet est de sélectionner la couche (.shp ou .dbf) dans l'explorateur de fichiers, et en maintenant le clic gauche enfoncé, la glisser dans la fenêtre de QGIS. Il est possible de le faire avec un dossier aussi, une fenêtre vous demandera quelle couche vous souhaitez ajouter parmi toutes les couches disponibles dans le dossier.
+
+![](/img/gif/ajout_drag.gif)
+
+### Explorateur
+
+Si vous ne souhaitez pas quitter la fenêtre de QGIS, vous pouvez naviguer vers votre couche en utilisant le panneau explorateur. Vous devez naviguer vers la couche que vous voulez puis double cliquer dessus pour l'ajouter.
 
 ![](/img/gif/ajout_explorateur.gif)
 
 
-## Menu - Couche
+### Menu - Couche
+
+Finalement, on peut ajouter des couches en utilisant le menu Couche dans la barre de menus. Ou en cliquant sur l'icône correspondante. Personnellement je n'utilise cette méthode que pour ajouter des connexions WMS/WFS (nous le verrons plus tard)
 
 ![](/img/gif/ajout_menu.gif)
 
-## *Drag and Drop*
 
-![](/img/gif/ajout_drag.gif)
 
 
 ## Création d'une couche
+
+Pour créer une nouvelle couche vectorielle, la façon la plus simple est d'utiliser le menu Couche ou l'icône correspondante. Un menu apparaîtra pour en vous demandant où enregistrer la couche et les colonnes que vous désirez.
+
 
 ![](/img/gif/creation.gif)
 
@@ -39,28 +50,31 @@ weight: 5
 
 ## Mémoire temporaire
 
-Lors de la création d'une couche, on peut choisir de créer une couche en mémoire temporaire. Si vous choisissez cette option, la couche sera perdu si vous fermez le projet (ou QGIS bogue).
+Lors de la création d'une couche, on peut choisir de créer une couche en mémoire temporaire. Si vous choisissez cette option, la couche sera perdue si vous fermez le projet (ou si QGIS bogue). Ça peut tout de même utile des fois pour éviter de créer une immense quantité de fichiers qui ne servent à rien. Par exemple, si je veux obtenir des points le long d'une ligne, je vais créer ma ligne en mémoire temporaire, créer mes points le long de cette ligne et enregistrer mon fichier de points. La ligne sera perdue, mais elle ne m'était pas utile pour ce que je voulais faire. Assurez-vous que si vous utilisez cette méthode que la couche qui sera perdue ne servira absolument pas plus tard.
 
 ## Numérisation de points, lignes et polygones 
 
-Selon le type de couche, vous pouvez utiliser  capturePoint Ajouter un point, captureLine Ajouter une ligne ou capturePolygon Ajouter un polygone dans la barre d’outils pour ajouter de nouvelles entités dans la couche actuelle.
+
 Pour numériser la géométrie:
 
-Faites un clic gauche sur la zone de la carte pour créer le premier point de votre nouvelle entité. Pour les entités ponctuelles, cela devrait suffire et déclencher, si nécessaire, le formulaire pour renseigner leurs attributs. 
+1. Sélectionnez la couche ou vous souhaitez ajouter une entité.
 
-Pour les géométries de ligne ou de polygone, continuez à cliquer avec le bouton gauche de la souris pour chaque point supplémentaire que vous souhaitez capturer ou utiliser
+1. Démarrer le mode édition en cliquant sur le crayon.
 
-En appuyant sur la touche Del ou Suppr, vous annulez le dernier nœud ajouté.
+1. Sélectionner l'outil d'ajout d'entité (la forme de l'icône dépend du type de géométrie)
 
-Lorsque vous avez terminé d’ajouter des points, cliquez avec le bouton droit n’importe où sur la zone de carte pour confirmer que vous avez terminé d’entrer la géométrie de cette entité.
+1. Faites un clic gauche sur la zone de la carte pour créer le premier point de votre nouvelle entité. Pour les entités ponctuelles, cela devrait suffire et déclencher, si nécessaire, le formulaire pour renseigner leurs attributs. 
 
+1. Pour les géométries de ligne ou de polygone, continuez à cliquer avec le bouton gauche de la souris pour chaque point supplémentaire que vous souhaitez capturer ou utiliser
 
-1. Démarrer le mode édition
-1. Ajouter une entité
-1. Clique droit pour arrêter (ligne et polygone)
-1. Saisir l'information
-1. Enregistrer
-1. Arrêter le mode édition
+1. En appuyant sur la touche Del ou Suppr, vous annulez le dernier nœud ajouté.
+
+1. Lorsque vous avez terminé d’ajouter des points, cliquez avec le clic droit n’importe où sur la zone de carte pour confirmer que vous avez terminé d’entrer la géométrie de cette entité.
+
+1. Saisissez l'information
+
+1. Enregistrer les modifications en cliquant sur la disquette à côté du crayon.
+1. Arrêter le mode édition en cliquant sur le crayon.
 
 
 
@@ -68,14 +82,34 @@ Lorsque vous avez terminé d’ajouter des points, cliquez avec le bouton droit 
 
 ## Exportation 
 
-1. Clique droit
-1. Enregistrer sous
-1. Choisir le format
-1. Choisir le dossier
-1. Choisir la projection
-1. Enregistrer
+Si vous souhaitez exporter votre couche vers un nouveau fichier, par exemple si vous aviez une couche en mémoire temporaire et que finalement vous souhaitez l'enregistrer, vous devez:
 
-## Exportation 
+
+1. Cliquer droit sur la couche à exporter
+1. Sélectionner `Enregistrer sous` 
+1. Choisir le format `ESRI Shapefiles`
+1. Choisir le dossier et nommer le fichier
+1. Choisir la projection
+1. Si vous souhaitez seulement exporter la sélection, vous pouvez cocher la case `N'enregistrer que les entités sélectionnées`
+1. Cliquer sur `OK`
+
+
 
 
 ![](/img/gif/exportation.gif)
+
+
+## Changer la projection d'une couche
+
+Si vous souhaitez modifier la projection d'une couche, la façon la plus simple est d'exporter la couche. Au moment d'enregistrer, choisir la projection désirée. Vous pouvez ensuite supprimer les fichiers originaux pour éviter de vous mêler. Si vous voulez supprimer des fichiers, vous devez vous assurer de les retirer de QGIS d'abord.
+
+{{% alert warning %}}
+
+Vous ne devez pas utiliser l'option `Définir le SCR de la couche`. Cette façon de faire ne devrait être utilisée que lorsque votre couche ne s'affiche pas au bon endroit.
+
+![](/img/img/misc/changer_projection_non.png)
+
+{{% /alert %}}
+
+
+
