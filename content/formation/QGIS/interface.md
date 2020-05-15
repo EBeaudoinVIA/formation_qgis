@@ -22,7 +22,7 @@ La plupart des options de menu ont un outil correspondant et vice-versa. Cependa
 
 Le menu Projet fournit les points d’accès et de sortie du fichier projet. Il fournit les outils pour :
 
-* Créer un Nouveau fichier de projet à partir de zéro ou en utilisant un autre fichier projet comme modèle.
+* Créer un nouveau fichier de projet à partir de zéro ou en utilisant un autre fichier projet comme modèle.
 
 * Ouvrir un projet à partir d’un fichier, un GeoPackage ou une base de données PostgreSQL
 
@@ -34,14 +34,14 @@ Le menu Projet fournit les points d’accès et de sortie du fichier projet. Il 
 
 * Régler les propriétés du projet et les options d’accrochage pour l’édition de la géométrie.
 
-### Editer
+### Éditer
 
-Le menu Editer fournit la plupart des outils natifs nécessaires pour éditer les attributs ou la géométrie des couches.
+Le menu Éditer fournit la plupart des outils natifs nécessaires pour éditer les attributs ou la géométrie des couches.
 
 ### Vue
 
 
-Créez de nouvelles vues cartographiques 2D ou 3D à côté du caneva de carte principal.
+Créez de nouvelles vues cartographiques 2D ou 3D à côté du canevas de carte principal.
 
 * Zoomer ou se déplacer n’importe où
 
@@ -55,22 +55,22 @@ Le menu vous permet également de réorganiser l’interface QGIS elle-même à 
 
 * Basculer en mode plein écran: couvre tout l’écran tout en masquant la barre de titre
 
-* Basculer la visibilité des panneaux: affiche ou masque les panneaux activés - utile lors de la numérisation d’entités (pour une visibilité maximale du caneva) ainsi que pour les présentations (projetées/enregistrées) utilisant le caneva principal de QGIS
+* Basculer la visibilité des panneaux: affiche ou masque les panneaux activés - utile lors de la numérisation d’entités (pour une visibilité maximale du canevas) ainsi que pour les présentations (projetées/enregistrées) utilisant le canevas principal de QGIS
 
 * Basculer en affichage carte plein écran : cache les panneaux, les barres d’outils, les menus et la barre d’état et affiche uniquement le canevas de la carte. Combiné avec l’option plein écran, il permet à votre écran d’afficher uniquement la carte.
 
 
 ### Couche
 
-Le menu Couche fournit un grand nombre d’outils pour créer de nouvelles sources de données, Les ajouter au projet ou enregistrer leurs modifications. 
+Le menu Couche fournit un grand nombre d’outils pour créer de nouvelles sources de données, les ajouter au projet ou enregistrer leurs modifications. 
 
 ### Préférences
 
-Permet d'accéder à différents menus d'options.
+Le menu Préférences permet d'accéder à différents menus d'options.
 
 ### Extensions
 
-Le menu extension permet de télécharger, de désactiver, de mettre à jour des extensions. De plus, certaines extensions seront ajouter à ce menu une fois installée
+Le menu extension permet de télécharger, de désactiver, de mettre à jour des extensions. De plus, certaines extensions seront ajoutées à ce menu une fois installé
 
 
 ### Vecteur
@@ -111,14 +111,14 @@ Dans la zone située à côté de la barre de localisation, un résumé des acti
 En cas d’opérations de longue durée, telles que la collecte de statistiques de couches raster, l’exécution d’algorithmes de traitement ou le rendu de plusieurs couches dans la vue de carte, une barre de progression est affichée dans la barre d’état.
 
 
-A côté de l’affichage des coordonnées se trouve l’affichage Echelle. Il montre l’échelle de la carte. Il y a un sélecteur qui vous permet de choisir des échelles prédéfinies et personnalisées.
+À côté de l’affichage des coordonnées se trouve l’affichage Échelle. Il montre l’échelle de la carte. Il y a un sélecteur qui vous permet de choisir des échelles prédéfinies et personnalisées.
 
 
 À droite de la loupe, vous pouvez définir un angle de rotation horaire en degrés à appliquer à la carte.
 
 Sur le côté droit de la barre d’état, il y a une petite case à cocher qui peut être utilisée temporairement pour empêcher le rendu des couches dans le Visualisateur de carte .
 
-A droite des fonctions de rendu, vous trouvez le bouton projectionEnabled code EPSG montrant le SCR du projet courant. Cliquer sur ce bouton ouvre la boîte de dialogue Propriétés du projet et vous permet d’appliquer un autre SCR.
+À droite des fonctions de rendues, vous trouvez le bouton projectionEnabled code EPSG montrant le SCR du projet courant. Cliquer sur ce bouton ouvre la boîte de dialogue Propriétés du projet et vous permet d’appliquer un autre SCR.
 
 
 
@@ -129,20 +129,25 @@ A droite des fonctions de rendu, vous trouvez le bouton projectionEnabled code E
 La Boîte à outils de traitement est l’élément principal de l’interface graphique de traitement, et celui que vous êtes le plus susceptible d’utiliser dans votre travail quotidien. Il affiche la liste de tous les algorithmes disponibles regroupés dans différents blocs appelés Fournisseurs, et modèles et scripts personnalisés que vous pouvez ajouter pour étendre l’ensemble des outils. La boîte à outils est donc le point d’accès pour les exécuter, que ce soit en tant que processus unique ou en tant que processus par lots impliquant plusieurs exécutions du même algorithme sur différents ensembles d’entrées.
 
 ::: notes
-Il est possible que vous ne voyez pas cette barre. Nous aborderons le sujet plus tard.
+Il est possible que vous ne voyiez pas cette barre. Nous aborderons le sujet plus tard.
 :::
 
 ## Sélection du projet
 ![](/img/img/interface/menu_projet.png)
  
-La fenêtre de sélection de projet apparaît lorsqu'on démarre qgis sans démarrer de projet. Il indique les derniers projet ouvert. C'est une façon rapide de rouvrir un prjet récent. Une fois un projet choisi ou suite à l'ajout d'une couche, cette fenêtre laisse place au canvas de la carte.
+La fenêtre de sélection de projets apparaît lorsqu'on démarre QGIS sans démarrer de projet. Il indique les derniers projets ouverts. C'est une façon rapide de rouvrir un projet récent. Une fois un projet choisit ou suite à l'ajout d'une couche, cette fenêtre laisse place au canevas de la carte.
 
 
 ::: notes
-Parfois un autres boîtes est présente indiquant les nouvelles versions ou les évènements à venir
+Parfois une autre boîte est présente indiquant les nouvelles versions ou les évènements à venir
 :::
 
-## Ajouter la barre de numérisation avancée
+## Ajouter la barre d'outils de numérisation avancée
+
+La barre d'outils de numérisation avancée contient des outils très utiles, nous allons les utiliser durant la formation. Je vous conseille de l'ajouter (si vous ne le faites pas, vous allez avoir de la misère à suivre). 
+
+Pour l'ajouter, cliquer droit sur la barre d'outils et dans la section **Barre d'outils** et non dans la section **Panneaux**, activer la numérisation avancée.
+
 
 ![](/img/img/misc/numerisation_avancee.png)
 
@@ -150,7 +155,7 @@ Parfois un autres boîtes est présente indiquant les nouvelles versions ou les 
 
 ## Boutons
 
-| Icone                                      | Utilisation   |
+| Icone                                      |   Utilisation   |
 | -------------                              |:-------------:|
 | ![](/img/img/bouton/mActionPan.png)        | Se déplacer dans la carte |
 | ![](/img/img/bouton/mActionIdentify.png)   | Identifier les entités      |
