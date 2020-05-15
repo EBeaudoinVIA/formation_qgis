@@ -40,6 +40,8 @@ Il y a deux types de systèmes de coordonnées de référence : Systèmes de Coo
 
 La projection à la volée est une fonctionnalité dans les SIG qui permet de superposer des couches, même si elles sont projetées dans différents systèmes de coordonnées de référence.
 
-img/img/misc/epsg.png)
-img/img/misc/sup_projection.png)
-img/img/misc/bad_map_projection.png)
+![](/img/img/misc/epsg.png)
+
+![](/img/img/misc/sup_projection.png)
+
+![](/img/img/misc/bad_map_projection.png)
