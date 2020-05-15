@@ -111,7 +111,9 @@ Pour enregistrer le modèle, cliquer sur l'outil `Enregistrer en tant que modèl
 
 Pour charger un modèle, cliquer sur l'outil `Ajouter des éléments depuis un modèle`. Il est probable que vous ayez à replacer la carte, et changer les couches dans la légende et dans le tableau.
 
-![](/img/gif/charger_modele.gif)
+{{< figure library="true" src="gif/charger_modele.gif" title="A caption" lightbox="true" >}}
+
+
 
 ## Ajouter une page
 
