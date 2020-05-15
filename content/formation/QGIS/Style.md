@@ -12,46 +12,78 @@ type: docs
 weight: 7
 ---
 
-Lorsqu’une couche est ajoutée au canevas de carte, QGIS utilise un symbole/couleur aléatoire pour le rendu de ses entités. Vous pouvez néanmoins paramétrer un symbole par défaut dans menuselection:Projet –> Propriétés –> Styles par défaut qui sera appliqué à chaque nouvel ajout de couche selon le type géométrique de cette dernière.
+Lorsqu’une couche est ajoutée au canevas de carte, QGIS utilise un symbole/couleur aléatoire pour le rendu de ses entités. Vous pouvez néanmoins paramétrer un symbole par défaut dans Projet –> Propriétés –> Styles par défaut qui sera appliqué à chaque nouvel ajout de couche selon le type géométrique de cette dernière.
 
-Cependant, la plupart du temps, vous voudrez disposer d’un style plus complexe et plus personnalisé qui pourra être appliqué automatiquement ou manuellement (mais avec moins d’effort). Vous pouvez y parvenir en utilisant la liste déroulante Style située en bas de la boîte de dialogue des Propriétés de la couche. Cette liste déroulante vous permet de créer, de charger et de gérer les styles.
-
-Un style enregistre toute information renseignée dans la boîte de dialogue des propriétés de la couche pour effectuer le rendu ou l’interaction avec la couche (comprenant les paramètres de la symbologie, de l’étiquetage, des formulaires, des actions, des diagrammes,etc.) pour les couches vectorielles, ou les pixels (bande et rendu de couleurs, opacité, pyramides, histogrammes…) pour les rasters.
-
-
-## Symbologie
-Si une entité est symbolisée sans utiliser les données de la table attributaire, elle peut seulement être symbolisée d’une façon simple. Par exemple avec des entités de point, vous pouvez configurer la couleur et le symbole (cercle, carré, étoile, etc.) mais c’est tout. 
-The Symbol selector is the main dialog to design a symbol. You can create or edit Marker, Line or Fill Symbols.
-
-A symbol can consist of several Symbol layers. The symbol tree shows the overlay of these symbol layers that are combined afterwards to shape a new global symbol. Besides, a dynamic symbol representation is updated as soon as symbol properties change.
-
-Depending on the level selected in the symbol tree items, various tools are made available to help you manage the tree:
+Cependant, la plupart du temps, vous voudrez disposer d’un style plus complexe et plus personnalisé 
 
 
 
 ## Symbologie
+
+Si une entité est symbolisée sans utiliser les données de la table attributaire, elle peut seulement être symbolisée d’une façon simple. Par exemple avec des entités de point, vous pouvez configurer la couleur et le symbole (cercle, carré, étoile, etc.), mais c’est tout. 
+
+Un symbole peut consister en plusieurs couches de symbole superposé avec des formes, des couleurs, des tailles et des niveaux de transparence différents.
+
+
+
+## Définir la symbologie
+
+Pour définir la symbologie, on clique droit sur une couche puis on sélectionne `Propriétés...`. On peut également double cliquer sur la couche.
+
+Ensuite on sélectionne l'onglet `Contrôle la symbologie de l'entité`.
+
+![](/img/img/bouton/symbology.png)
+
+Dans cet onglet où peut soit sélectionner un style préenregistré ou créer un nouveau style.
+
 
 ![](/img/gif/symbologie.gif)
 
 ## Symbologie par catégorie
-Parfois, les entités vectorielles représentent des choses avec une valeur numérique changeante. Les lignes de contours sont un bon exemple de cela. Chaque contour possède en général une valeur attributaire appelée “hauteur”, qui contient de l’information sur quelle hauteur ce contour représente. Précédemment dans ce sujet, nous avons montré des contours tous dessinés avec la même couleur. Ajouter une couleur aux contours peut nous aider à interpréter le sens des contours. Par exemple, nous pouvons dessiner des zones de basse altitude avec une couleur, des zones de moyenne altitude avec une autre couleur et des zones de haute altitude avec une troisième couleur.
-On peut également faire varier la symbologie par catégorie ou gradué.
 
-## Symbologie par catégorie
+
+
+
+On peut également faire varier la symbologie selon une colonne de la table attributaire. On peut soit assigner un style pour chaque valeur unique dans la table (par exemple avoir un style pour les parcelles louées et un pour les parcelles que le client possède) ou avoir un style qui varie selon un attribut numérique (changer la couleur selon la superficie d'une parcelle).
+
+Dans l'onglet `Contrôle la symbologie de l'entité`, il suffit de  remplacer `Symbole unique` par `Catégorisé` ou `Gradué` dans le menu déroulant situé dans le haut.
 
 ![](/img/gif/symbologie_categorie.gif)
 
 
 
 
-## Etiquettes
+## Étiquettes
 
-The Style Manager dialog allows you to create a set of labels or text formats (ie the appearance of the text, including font, size, colors, shadow, background…). Each of these items could later be applied to layers in the labeling Labels tab of the vector Layer Properties dialog or Layer Styling panel or using the labeling Layer Labeling Options button of the Labels toolbar. You can also directly configure them in the abovementioned dialogs.
+Dans la fenêtre `Propriété de la couche` on peut également ajouter des étiquettes aux entités. Il suffit de cliquer sur l'onglet `Contrôle l'étiquetage des entités`
 
-The Label Settings dialog allows you to configure smart labeling for vector layers. Setting a label includes configuring the text format, and how the label relates with the features or other labels (through placement, rendering and callout).
+![](/img/img/bouton/labelingSingle.png)
+
+Dans le menu déroulant du haut, sélectionner `Étiquettes simples`, puis de la barre valeur choisissez un attribut ou saisissez une formule. Les options contenues dans cet onglet permettent de changer la police, l'arrière-plan, la position, l'orientation et la visibilité des étiquettes selon l'échelle. 
+
 ![](/img/gif/etiquette.gif)
 
 
 ## Enregistrer un style
 
-## Charger un style
+Définir un "beau" style peut prendre du temps, et il est souvent souhaitable d'établir des styles qu'on réutilise d'une fois à l'autre pour le même type d'information. Par exemple, tous les puits ont le même symbole. Il est donc utile d'enregistrer les styles dans un fichier et de se les partager. Lorsque vous enregistrez un projet, vous enregistrez la symbologie, mais si vous partez d'un projet vide, il peut être utile d'avoir le fichier de style.
+
+![](/img/gif/save_style.gif)
+
+
+{{% alert note %}}
+
+Enregistrer le symbole n'est pas la même chose qu'enregistrer le style. Enregistrer le symbole signifie que vous allez conserver votre symbologie (la couleur du polygone, le type de ligne, etc.) dans vos styles enregistrés dans QGIS. Enregistrer le style enregistre à la fois le symbole, mais aussi les étiquettes dans un fichier séparé.
+
+![](/img/gif/save_symbole.gif)
+
+{{% /alert %}}
+
+
+
+
+
+
+
+
+
