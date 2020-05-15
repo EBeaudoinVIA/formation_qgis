@@ -33,6 +33,6 @@ projects: []
 
 ## 3 - N'ayez pas peur d'essayer de cliquer partout
 
-## 2 - Gérer bien vos dossier
+## 2 - Gérez bien vos dossier
 
 ## 1 - Vérifiez les projections de vos couches et du projet
