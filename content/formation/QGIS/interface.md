@@ -154,21 +154,21 @@ Parfois un autres boîtes est présente indiquant les nouvelles versions ou les 
 | -------------                              |:-------------:|
 | ![](/img/img/bouton/mActionPan.png)        | Se déplacer dans la carte |
 | ![](/img/img/bouton/mActionIdentify.png)   | Identifier les entités      |
-| ![](/img/img/bouton/mActionMeasure.png)   | are neat      |
-| ![](/img/img/bouton/mActionMeasureArea.png)   | are neat      |
-| ![](/img/img/bouton/mActionZoomFullExtent.png)   | are neat      |
-| ![](/img/img/bouton/mActionZoomToLayer.png)   | are neat      |
-| ![](/img/img/bouton/mActionZoomToSelected.png)   | are neat      |
-| ![](/img/img/bouton/mActionSelectRectangle.png)   | are neat      |
-| ![](/img/img/bouton/mActionSelectPolygon.png)   | are neat      |
-| ![](/img/img/bouton/mActionToggleEditing.png)   | are neat      |
-| ![](/img/img/bouton/mActionCapturePoint.png)   | are neat      |
-| ![](/img/img/bouton/mActionCaptureLine.png)   | are neat      |
-| ![](/img/img/bouton/mActionCapturePolygon.png)   | are neat      |
-| ![](/img/img/bouton/mActionMoveFeaturePoint.png)   | are neat      |
-| ![](/img/img/bouton/mActionMoveFeatureLine.png)   | are neat      |
-| ![](/img/img/bouton/mActionMoveFeature.png)   | are neat      |
-| ![](/img/img/bouton/mActionSplitFeatures.png)   | are neat      |
-| ![](/img/img/bouton/mActionMergeFeatures.png)   | are neat      |
-| ![](/img/img/bouton/mActionVertexToolActiveLayer.png)   | are neat      |
-| ![](/img/img/bouton/mActionLayoutManager.png)   | are neat      |
+| ![](/img/img/bouton/mActionMeasure.png)   | Mesurer une longueur      |
+| ![](/img/img/bouton/mActionMeasureArea.png)   | Mesurer une superficie      |
+| ![](/img/img/bouton/mActionZoomFullExtent.png)   | Zoomer sur l'ensemble des couches      |
+| ![](/img/img/bouton/mActionZoomToLayer.png)   | Zoomer sur la couche sélectionnée      |
+| ![](/img/img/bouton/mActionZoomToSelected.png)   | Zoomer sur la sélection      |
+| ![](/img/img/bouton/mActionSelectRectangle.png)   | Sélectionner à l'aide d'un rectangle      |
+| ![](/img/img/bouton/mActionSelectPolygon.png)   | Sélectionner selon un polygone      |
+| ![](/img/img/bouton/mActionToggleEditing.png)   | Démarrer l'édition de la couche      |
+| ![](/img/img/bouton/mActionCapturePoint.png)   | Ajouter un point      |
+| ![](/img/img/bouton/mActionCaptureLine.png)   | Ajouter une ligne      |
+| ![](/img/img/bouton/mActionCapturePolygon.png)   | Ajouter un polygone      |
+| ![](/img/img/bouton/mActionMoveFeaturePoint.png)   | Déplacer un point      |
+| ![](/img/img/bouton/mActionMoveFeatureLine.png)   | Déplacer une ligne      |
+| ![](/img/img/bouton/mActionMoveFeature.png)   | Déplacer un polygone      |
+| ![](/img/img/bouton/mActionSplitFeatures.png)   | Diviser une entité      |
+| ![](/img/img/bouton/mActionMergeFeatures.png)   | Fusionner des entités      |
+| ![](/img/img/bouton/mActionVertexToolActiveLayer.png)   | Éditer les noeuds      |
+| ![](/img/img/bouton/mActionLayoutManager.png)   | Ouvrir la mise en page      |
