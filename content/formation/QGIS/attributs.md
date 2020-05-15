@@ -24,7 +24,7 @@ La table d’attributs affiche des informations sur les entités d’un calque s
 Pour ouvrir la table attributaire d’une couche vectorielle, activez la couche en cliquant dessus depuis le panneau Couches.  d’attributs. Vous pouvez aussi y accéder avec un clic droit sur la couche puis en sélectionnant ![](/img/img/bouton/mActionOpenTable.png).
 
 
-![](/img/gif/ouvrir_table_attributs.gif)
+{{< figure library="true" src="gif/ouvrir_table_attributs.gif" title="Ouvrir la table d'attribut" lightbox="true" >}}
 
 L’édition des valeurs attributaires peut être faite en :
 
@@ -41,8 +41,7 @@ L’édition des valeurs attributaires peut être faite en :
 1. Arrêter le mode édition
 
 
-![](/img/gif/editer_table_attributs.gif)
-
+{{< figure library="true" src="gif/editer_table_attributs.gif" title="Éditer la table d'attribut" lightbox="true" >}}
 
 
 
@@ -55,7 +54,7 @@ L’édition des valeurs attributaires peut être faite en :
 1. Arrêter le mode édition
 
 
-![](/img/gif/ajouter_colonne.gif)
+{{< figure library="true" src="gif/ajouter_colonne.gif" title="Ajout et suppression de colonne" lightbox="true" >}}
 
 ## Aire et longueur
 
@@ -80,4 +79,4 @@ Il est important de recalculer les superficies ou les longueurs lorsqu'on modifi
 {{% /alert %}}
 
 
-![](/img/gif/calc_aire.gif)
+{{< figure library="true" src="gif/calc_aire.gif" title="Aire et longueur" lightbox="true" >}}

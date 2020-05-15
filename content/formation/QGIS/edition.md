@@ -38,8 +38,7 @@ Pour toute couche vectorielle éditable, l’outil de noeud fournit des capacit�
 
 
 
-![](/img/gif/mod_noeuds.gif)
-
+{{< figure library="true" src="gif/mod_noeuds.gif" title="Modifier les noeuds" lightbox="true" >}}
 
 ## Découper
 
@@ -59,7 +58,8 @@ Vous pouvez ensuite, comme d’habitude, modifier l’un des attributs de toute 
 1. Arrêter le mode édition
 
 
-![](/img/gif/couper.gif)
+
+{{< figure library="true" src="gif/couper.gif" title="Découper" lightbox="true" >}}
 
 ## Fusionner
 
@@ -82,5 +82,4 @@ en appuyant sur Ignorer tous les attributs pour utiliser des attributs vides;
 
 
 
-![](/img/gif/fusion.gif)
-
+{{< figure library="true" src="gif/fusion.gif" title="Fusionner" lightbox="true" >}}

@@ -37,7 +37,7 @@ Ensuite on sélectionne l'onglet `Contrôle la symbologie de l'entité`.
 Dans cet onglet où peut soit sélectionner un style préenregistré ou créer un nouveau style.
 
 
-![](/img/gif/symbologie.gif)
+{{< figure library="true" src="gif/symbologie.gif" title="Définir la symbologie" lightbox="true" >}}
 
 ## Symbologie par catégorie
 
@@ -48,9 +48,9 @@ On peut également faire varier la symbologie selon une colonne de la table attr
 
 Dans l'onglet `Contrôle la symbologie de l'entité`, il suffit de  remplacer `Symbole unique` par `Catégorisé` ou `Gradué` dans le menu déroulant situé dans le haut.
 
-![](/img/gif/symbologie_categorie.gif)
 
 
+{{< figure library="true" src="gif/symbologie_categorie.gif" title="Symbologie par catégorie" lightbox="true" >}}
 
 
 ## Étiquettes
@@ -61,21 +61,21 @@ Dans la fenêtre `Propriété de la couche` on peut également ajouter des étiq
 
 Dans le menu déroulant du haut, sélectionner `Étiquettes simples`, puis de la barre valeur choisissez un attribut ou saisissez une formule. Les options contenues dans cet onglet permettent de changer la police, l'arrière-plan, la position, l'orientation et la visibilité des étiquettes selon l'échelle. 
 
-![](/img/gif/etiquette.gif)
 
+{{< figure library="true" src="gif/etiquette.gif" title="Étiquettes" lightbox="true" >}}
 
 ## Enregistrer un style
 
 Définir un "beau" style peut prendre du temps, et il est souvent souhaitable d'établir des styles qu'on réutilise d'une fois à l'autre pour le même type d'information. Par exemple, tous les puits ont le même symbole. Il est donc utile d'enregistrer les styles dans un fichier et de se les partager. Lorsque vous enregistrez un projet, vous enregistrez la symbologie, mais si vous partez d'un projet vide, il peut être utile d'avoir le fichier de style.
 
-![](/img/gif/save_style.gif)
 
+{{< figure library="true" src="gif/save_style.gif" title="Enregistrer un style" lightbox="true" >}}
 
 {{% alert note %}}
 
 Enregistrer le symbole n'est pas la même chose qu'enregistrer le style. Enregistrer le symbole signifie que vous allez conserver votre symbologie (la couleur du polygone, le type de ligne, etc.) dans vos styles enregistrés dans QGIS. Enregistrer le style enregistre à la fois le symbole, mais aussi les étiquettes dans un fichier séparé.
 
-![](/img/gif/save_symbole.gif)
+{{< figure library="true" src="gif/save_symbole.gif" title="Enregistrer un symbole" lightbox="true" >}}
 
 {{% /alert %}}
 

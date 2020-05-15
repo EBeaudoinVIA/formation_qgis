@@ -17,33 +17,34 @@ weight: 9
 ## Ouvrir la boîte à outils
 
 
-![](/img/gif/ouvrir_boite_outils.gif)
+
+{{< figure library="true" src="gif/ouvrir_boite_outils.gif" title="Ouvrir la boîte à outils" lightbox="true" >}}
 
 
 
 
 ## Tampon
 
-![](/img/gif/tampon.gif)
+{{< figure library="true" src="gif/tampon.gif" title="Tampon" lightbox="true" >}}
 
 ## Tampon négatif
 
-![](/img/gif/tampon_negatif.gif)
-
+{{< figure library="true" src="gif/tampon_negatif.gif" title="Tampon négatif" lightbox="true" >}}
 
 ## Refactoriser
 
-![](/img/gif/refactoriser.gif)
+{{< figure library="true" src="gif/refactoriser.gif" title="Refactoriser" lightbox="true" >}}
 
 ## Requêtes (entre différentes couches)
 
-![](/img/gif/jointure_simple.gif)
 
-
-## Requêtes (entre différentes couches)
-
-![](/img/gif/jointure_erreur.gif)
+{{< figure library="true" src="gif/jointure_simple.gif" title="Requêtes (entre différentes couches)" lightbox="true" >}}
 
 ## Requêtes (entre différentes couches)
 
-![](/img/gif/jointure_superficie.gif)
+
+{{< figure library="true" src="gif/jointure_erreur.gif" title="Requêtes (entre différentes couches)" lightbox="true" >}}
+
+## Requêtes (entre différentes couches)
+
+{{< figure library="true" src="gif/jointure_superficie.gif" title="Requêtes (entre différentes couches)" lightbox="true" >}}

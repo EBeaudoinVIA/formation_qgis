@@ -15,13 +15,15 @@ weight: 3
 
 Il est possible de modifier l'affichage des couches en cochant ou décochant les couches dans le panneau de couche. Pour changer l'ordre d'affichage, vous pouvez cliquer gauche sur la couche et en maintenant enfoncer le clic, déplacer la couche au niveau désiré. On peut également utiliser les boutons pour monter ou descendre la couche située dans le haut du panneau.
 
-![](/img/gif/ordre_couche.gif)
 
+
+{{< figure library="true" src="gif/ordre_couche.gif" title="Changer l'ordre des couches / Visibilité" lightbox="true" >}}
 
 ## Se déplacer sur la carte
 
 ![](/img/gif/deplacement.gif)
 
+{{< figure library="true" src="gif/deplacement.gif" title="Se déplacer sur la carte" lightbox="true" >}}
 
 ### Avec la molette de la souris
 

@@ -21,22 +21,22 @@ weight: 5
 
 Une des façons les plus simples d'ajouter une couche dans le projet est de sélectionner la couche (.shp ou .dbf) dans l'explorateur de fichiers, et en maintenant le clic gauche enfoncé, la glisser dans la fenêtre de QGIS. Il est possible de le faire avec un dossier aussi, une fenêtre vous demandera quelle couche vous souhaitez ajouter parmi toutes les couches disponibles dans le dossier.
 
-![](/img/gif/ajout_drag.gif)
+{{< figure library="true" src="gif/ajout_drag.gif" title="Drag and Drop" lightbox="true" >}}
 
 ### Explorateur
 
 Si vous ne souhaitez pas quitter la fenêtre de QGIS, vous pouvez naviguer vers votre couche en utilisant le panneau explorateur. Vous devez naviguer vers la couche que vous voulez puis double cliquer dessus pour l'ajouter.
 
-![](/img/gif/ajout_explorateur.gif)
 
+
+{{< figure library="true" src="gif/ajout_explorateur.gif" title="Explorateur" lightbox="true" >}}
 
 ### Menu - Couche
 
 Finalement, on peut ajouter des couches en utilisant le menu Couche dans la barre de menus. Ou en cliquant sur l'icône correspondante. Personnellement je n'utilise cette méthode que pour ajouter des connexions WMS/WFS (nous le verrons plus tard)
 
-![](/img/gif/ajout_menu.gif)
 
-
+{{< figure library="true" src="gif/ajout_menu.gif" title="Menu - Couche" lightbox="true" >}}
 
 
 ## Création d'une couche
@@ -44,8 +44,7 @@ Finalement, on peut ajouter des couches en utilisant le menu Couche dans la barr
 Pour créer une nouvelle couche vectorielle, la façon la plus simple est d'utiliser le menu Couche ou l'icône correspondante. Un menu apparaîtra pour en vous demandant où enregistrer la couche et les colonnes que vous désirez.
 
 
-![](/img/gif/creation.gif)
-
+{{< figure library="true" src="gif/creation.gif" title="Création d'une couche" lightbox="true" >}}
 
 
 ## Mémoire temporaire
@@ -78,7 +77,7 @@ Pour numériser la géométrie:
 
 
 
-![](/img/gif/numerisation.gif)
+{{< figure library="true" src="gif/numerisation.gif" title="Numérisation de points, lignes et polygones" lightbox="true" >}}
 
 ## Exportation 
 
@@ -95,9 +94,7 @@ Si vous souhaitez exporter votre couche vers un nouveau fichier, par exemple si 
 
 
 
-
-![](/img/gif/exportation.gif)
-
+{{< figure library="true" src="gif/exportation.gif" title="Exportation" lightbox="true" >}}
 
 ## Changer la projection d'une couche
 
