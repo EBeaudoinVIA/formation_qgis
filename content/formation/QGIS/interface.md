@@ -150,8 +150,25 @@ Parfois un autres boîtes est présente indiquant les nouvelles versions ou les 
 
 ## Boutons
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| ![](/img/img/misc/numerisation_avancee.png)     | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Icone                                      | Utilisation   |
+| -------------                              |:-------------:|
+| ![](/img/img/bouton/mActionPan.png)        | Se déplacer dans la carte |
+| ![](/img/img/bouton/mActionIdentify.png)   | Identifier les entités      |
+| ![](/img/img/bouton/mActionMeasure.png)   | are neat      |
+| ![](/img/img/bouton/mActionMeasureArea.png)   | are neat      |
+| ![](/img/img/bouton/mActionZoomFullExtent.png)   | are neat      |
+| ![](/img/img/bouton/mActionZoomToLayer.png)   | are neat      |
+| ![](/img/img/bouton/mActionZoomToSelected.png)   | are neat      |
+| ![](/img/img/bouton/mActionSelectRectangle.png)   | are neat      |
+| ![](/img/img/bouton/mActionSelectPolygon.png)   | are neat      |
+| ![](/img/img/bouton/mActionToggleEditing.png)   | are neat      |
+| ![](/img/img/bouton/mActionCapturePoint.png)   | are neat      |
+| ![](/img/img/bouton/mActionCaptureLine.png)   | are neat      |
+| ![](/img/img/bouton/mActionCapturePolygon.png)   | are neat      |
+| ![](/img/img/bouton/mActionMoveFeaturePoint.png)   | are neat      |
+| ![](/img/img/bouton/mActionMoveFeatureLine.png)   | are neat      |
+| ![](/img/img/bouton/mActionMoveFeature.png)   | are neat      |
+| ![](/img/img/bouton/mActionSplitFeatures.png)   | are neat      |
+| ![](/img/img/bouton/mActionMergeFeatures.png)   | are neat      |
+| ![](/img/img/bouton/mActionVertexToolActiveLayer.png)   | are neat      |
+| ![](/img/img/bouton/mActionLayoutManager.png)   | are neat      |
