@@ -38,7 +38,7 @@ En 2011, M Bouffard obtient un baccalauréat en agronomie, concentration sols et
 
  
 
-Axé sur les sciences fondamentales et l’avancement technologique, M. Bouffard s’oriente dès ses débuts dans le domaine de la recherche notamment au sein du Centre de recherche sur le sol et les grandes cultures du Québec d’Agriculture et Agroalimentaire Canada, au laboratoire de pédologie et d’agriculture de précision et également au Centre de recherche en horticulture de l’université Laval. Au fil des ans, il acquière une solide expérience dans le domaine de la géomatique agricole, un secteur agronomique qui, encore aujourd’hui, ne cesse de se développer.
+Axé sur les sciences fondamentales et l’avancement technologique, M. Bouffard s’oriente dès ses débuts dans le domaine de la recherche notamment au sein du Centre de recherche sur le sol et les grandes cultures du Québec d’Agriculture et Agroalimentaire Canada, au laboratoire de pédologie et d’agriculture de précision et également au Centre de recherche en horticulture de l’université Laval. Au fil des ans, il acquiert une solide expérience dans le domaine de la géomatique agricole, un secteur agronomique qui, encore aujourd’hui, ne cesse de se développer.
 
  
 
