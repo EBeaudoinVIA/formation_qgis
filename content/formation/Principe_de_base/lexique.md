@@ -16,16 +16,14 @@ weight: 2
 La plupart des applications SIG regroupent les entités vectorielles dans des couches. Les entités d’une couche ont le même type de géométrie (par exemple, ils seront tous des points) et les mêmes types d’attributs (par exemple, l’information sur l’espèce d’un arbre au sein d’une couche arbres). C’est pratique, car il vous permet de masquer ou d’afficher toutes les caractéristiques de cette couche dans votre application SIG avec un simple clic de souris.
 
 
-![](/img/img/misc/couche.png)
+![United States Geological Survey / Public domain](/img/img/misc/couche.png)
 
-::: notes
- United States Geological Survey / Public domain
-:::
+
 
 
 ## Vecteurs vs Raster
 
-Lorsque vous utilisez un SIG (pensez à Google map), l'information peut ^tre présenté sous forme de raster ou sous forme de vecteur. Prenons une route, dans google map, la route peut être représenté par une ligne droite, de couleur et de taille uniforme; c'est un vecteur. En même temps, ono peu regarder une image aérienne de cette même route, soudain elle paraît beaucoup moins uniforme, on voit des accotements, des toru dans la chaussé etc.; c'est un raster. Ce que nous pouvons faire avec une couche vas largement dépendre si l'information est stocker sous forme de raster ou de vecteur. Pensez à un chemin de ferme, vous le voyez clairement sur google map, mais puisqu'il n'a pas été transformé en vecteur, il ne vous calculera pas d'itinéraire en passant par ce chemin. Inversement, si vous regarder un champ en raster vous allez voir la variabilité de la couleur et de la densité. En vecteur peuisqu'il n'y aurait qu'une ligne pour ce meme champ, vous n'obtiendriez que la culture.
+Lorsque vous utilisez un SIG (pensez à Google map), l'information peut ^tre présenté sous forme de raster ou sous forme de vecteur. Prenons une route, dans google map, la route peut être représentée par une ligne droite, de couleur et de taille uniformes; c'est un vecteur. En même temps, ono peu regarder une image aérienne de cette même route, soudain elle paraît beaucoup moins uniforme, on voit des accotements, des trous dans la chaussée, etc.; c'est un raster. Ce que nous pouvons faire avec une couche va largement dépendre si l'information est stockée sous forme de raster ou de vecteur. Pensez à un chemin de ferme, vous le voyez clairement sur google map, mais puisqu'il n'a pas été transformé en vecteur, il ne vous calculera pas d'itinéraire en passant par ce chemin. Inversement, si vous regardez un champ en raster vous allez voir la variabilité de la couleur et de la densité. En vecteur puisque n'y aurait qu'une ligne pour ce même champ, vous n'obtiendriez que la culture.
 
 <iframe src="/img/figure.html" style="width: 100%; height: 500px; border:0;"></iframe>
 
@@ -58,11 +56,9 @@ La numérisation est le processus de création de données vecteur, en les dessi
 Les données vectorielles peuvent présenter des problèmes de qualité comme les croisements, les non-connexions et les écarts dont vous devez connaître l’existence.
 
 Les données vectorielles peuvent être utilisées pour des analyses spatiales dans une application SIG, par exemple pour trouver l’hôpital le plus proche d’une école.
-![](/img/img/misc/vecteur.png)
+![Penn State's College of Earth and Mineral Science](/img/img/misc/vecteur.png)
 
-::: notes
- Penn State's College of Earth and Mineral Science
-:::
+
 
 ## Entités
 
@@ -93,11 +89,8 @@ Chaque champ dans la table attributaire contient un type de données spécifique
 * C’est l’information non spatiale contenue dans la base de données qui est associée à l’entité.
 * Dans la formation, on ne va pas utiliser le terme Champs pour désigner cette information pour des raisons évidentes...
 
-![](/img/img/misc/table_attributs.png)
+![Allison Horst / @allison_horst](/img/img/misc/table_attributs.png)
 
-::: notes
- Allison Horst / @allison_horst
-:::
 
 ## Shapefiles 
 
