@@ -15,6 +15,11 @@ weight: 1
 
 Lorsque l’on voit la terre depuis la terre, elle semble être plate. Cependant, lorsqu’on la regarde depuis l’espace, on constate qu’elle est sphérique. Les cartes, comme nous le verrons dans le prochain sujet de production de cartes, sont des représentations de la réalité. Elles ne servent pas juste à représenter les apparences, mais aussi les formes et les dispositions géographiques. Chaque projection cartographique a des avantages et des désavantages. La meilleure projection d’une carte dépend de l’échelle de la carte, et pour l’objectif pour laquelle elle sera utilisée. Par exemple, une projection peut avoir des distorsions inacceptables si elles sont utilisées pour cartographier l’ensemble du continent africain, mais peut être un excellent choix pour une carte à grande échelle (détaillée) de votre pays. Les propriétés d’une projection cartographique peuvent aussi influencer certaines caractéristiques de conception de la carte. Certaines projections sont bonnes pour de petites zones, d’autres pour cartographier une large étendue Est-Ouest et d’autres sont bonnes pour cartographier des zones avec une grande étendue Nord-Sud.
 
+
+{{< youtube kIID5FDi2JQ >}}
+
+
+
 Les projections cartographiques ne sont jamais une représentation absolument exacte de la Terre. À chaque projection, les cartes affichent des distorsions sur la conformité des angles, des distances et des surfaces. Une projection cartographique peut combiner plusieurs de ces caractéristiques, ou peut être un compromis entre ces déformations de surface, de distance et d’angle, dans des limites raisonnables.
 
 Grâce aux systèmes de coordonnées de référence (SCR), chaque point de la terre peut être spécifié par un ensemble de trois nombres, appelé coordonnées. En général, les SCR se divisent en systèmes de coordonnées de référence projetés (aussi appelés systèmes de coordonnées de référence cartésiens ou rectangulaires) et systèmes de coordonnées de référence géographique.

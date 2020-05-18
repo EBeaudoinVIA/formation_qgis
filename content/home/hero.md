@@ -37,7 +37,7 @@ hero_media = "qgis-logo-monochrome.svg"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "courses/"
+  url = "formation/"
   label = "Lien vers la formation"
   icon_pack = "fas"
   icon = "graduation-cap"
