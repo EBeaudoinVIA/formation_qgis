@@ -27,7 +27,7 @@ La plupart des applications SIG regroupent les entités vectorielles dans des co
 
 Lorsque vous utilisez un SIG (pensez à Google map), l'information peut ^tre présenté sous forme de raster ou sous forme de vecteur. Prenons une route, dans google map, la route peut être représenté par une ligne droite, de couleur et de taille uniforme; c'est un vecteur. En même temps, ono peu regarder une image aérienne de cette même route, soudain elle paraît beaucoup moins uniforme, on voit des accotements, des toru dans la chaussé etc.; c'est un raster. Ce que nous pouvons faire avec une couche vas largement dépendre si l'information est stocker sous forme de raster ou de vecteur. Pensez à un chemin de ferme, vous le voyez clairement sur google map, mais puisqu'il n'a pas été transformé en vecteur, il ne vous calculera pas d'itinéraire en passant par ce chemin. Inversement, si vous regarder un champ en raster vous allez voir la variabilité de la couleur et de la densité. En vecteur peuisqu'il n'y aurait qu'une ligne pour ce meme champ, vous n'obtiendriez que la culture.
 
-<iframe src="/img/figure.html" style="width: 100%; height: 50%; border:0;></iframe>
+<iframe src="/img/figure.html" style="width: 100%; height: 50%; border:0;"></iframe>
 
 ## Vecteur
 
