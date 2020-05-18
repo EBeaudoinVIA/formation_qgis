@@ -6,7 +6,7 @@ menu:
   example:
     parent: Principes de base
     weight: 2
-title: Lexique
+title: Lexique2
 toc: true
 type: docs
 weight: 2
