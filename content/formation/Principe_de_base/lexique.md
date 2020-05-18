@@ -15,7 +15,7 @@ weight: 2
 
 La plupart des applications SIG regroupent les entités vectorielles dans des couches. Les entités d’une couche ont le même type de géométrie (par exemple, ils seront tous des points) et les mêmes types d’attributs (par exemple, l’information sur l’espèce d’un arbre au sein d’une couche arbres). C’est pratique, car il vous permet de masquer ou d’afficher toutes les caractéristiques de cette couche dans votre application SIG avec un simple clic de souris.
 
-{{< figure library="true" src="/img/img/misc/couche.png" title="United States Geological Survey / Public domain" lightbox="false" >}}
+{{< figure library="true" src="/img/misc/couche.png" title="Source: United States Geological Survey / Public domain" lightbox="false" >}}
 
 
 
@@ -24,14 +24,14 @@ La plupart des applications SIG regroupent les entités vectorielles dans des co
 
 ## Vecteurs vs Raster
 
-Lorsque vous utilisez un SIG (pensez à Google map), l'information peut ^tre présenté sous forme de raster ou sous forme de vecteur. Prenons une route, dans google map, la route peut être représentée par une ligne droite, de couleur et de taille uniformes; c'est un vecteur. En même temps, ono peu regarder une image aérienne de cette même route, soudain elle paraît beaucoup moins uniforme, on voit des accotements, des trous dans la chaussée, etc.; c'est un raster. Ce que nous pouvons faire avec une couche va largement dépendre si l'information est stockée sous forme de raster ou de vecteur. Pensez à un chemin de ferme, vous le voyez clairement sur google map, mais puisqu'il n'a pas été transformé en vecteur, il ne vous calculera pas d'itinéraire en passant par ce chemin. Inversement, si vous regardez un champ en raster vous allez voir la variabilité de la couleur et de la densité. En vecteur puisque n'y aurait qu'une ligne pour ce même champ, vous n'obtiendriez que la culture.
+Lorsque vous utilisez un SIG (pensez à Google map), l'information peut ^tre présenté sous forme de raster ou sous forme de vecteur. Prenons une route, dans google map, la route peut être représentée par une ligne droite, de couleur et de taille uniformes; c'est un vecteur. En même temps, ono peu regarder une image aérienne de cette même route, soudain elle paraît beaucoup moins uniforme, on voit des accotements, des trous dans la chaussée, etc.; c'est un raster. Ce que nous pouvons faire avec une couche va largement dépendre si l'information est stockée sous forme de raster ou de vecteur. Pensez à un chemin de ferme, vous le voyez clairement sur google map, mais puisqu'il n'a pas été transformé en vecteur, il ne vous calculera pas d'itinéraire en passant par ce chemin. Inversement, si vous regardez un champ en raster vous allez voir la variabilité de la couleur et de la densité. En vecteur ce même champ ne serait représenté que par 1 polygone donc par une seule valeur.
 
 <iframe src="/img/figure.html" style="width: 100%; height: 500px; border:0;"></iframe>
 
 ## Vecteur
 
 
-{{< figure library="true" src="/img/img/misc/vecteur_vs_raster.png" title="Penn State's College of Earth and Mineral Science" lightbox="false" >}}
+{{< figure library="true" src="/img/misc/vecteur_vs_raster.png" title="Source: Penn State's College of Earth and Mineral Science" lightbox="false" >}}
 
 
 
@@ -60,7 +60,7 @@ Les données vectorielles peuvent présenter des problèmes de qualité comme le
 Les données vectorielles peuvent être utilisées pour des analyses spatiales dans une application SIG, par exemple pour trouver l’hôpital le plus proche d’une école.
 
 
-{{< figure library="true" src="/img/img/misc/vecteur_vs_raster.png" title="Penn State's College of Earth and Mineral Science" lightbox="false" >}}
+{{< figure library="true" src="/img/misc/vecteur_vs_raster.png" title="Source: Penn State's College of Earth and Mineral Science" lightbox="false" >}}
 
 
 ## Entités
@@ -82,7 +82,7 @@ Une entité vectorielle a sa forme représentée en utilisant la géométrie. La
 * Les noeuds peuvent avoir l'espacement qu'un veut
 
 
-{{< figure library="true" src="/img/img/misc/vecteur.png" title="Penn State's College of Earth and Mineral Science" lightbox="false" >}}
+{{< figure library="true" src="/img/misc/vecteur.png" title="Source: Penn State's College of Earth and Mineral Science" lightbox="false" >}}
 
 ## Champs 
 
@@ -93,7 +93,7 @@ Chaque champ dans la table attributaire contient un type de données spécifique
 * C’est l’information non spatiale contenue dans la base de données qui est associée à l’entité.
 * Dans la formation, on ne va pas utiliser le terme Champs pour désigner cette information pour des raisons évidentes...
 
-{{< figure library="true" src="/img/img/misc/table_attributs.png" title="Allison Horst / @allison_horst" lightbox="false" >}}
+{{< figure library="true" src="/img/misc/table_attributs.png" title="Source: Allison Horst / @allison_horst" lightbox="false" >}}
 
 ## Shapefiles 
 
@@ -151,7 +151,7 @@ Beaucoup de personnes utilisent des données raster comme une toile de fond à u
 
 * Les images Raster peuvent consommer beaucoup d’espace de stockage.
 
-{{< figure library="true" src="/img/img/misc/raster.png" title="Penn State's College of Earth and Mineral Science" lightbox="false" >}}
+{{< figure library="true" src="/img/misc/raster.png" title="Source: Penn State's College of Earth and Mineral Science" lightbox="true" >}}
 
 
 ## Vecteurs vs Raster
@@ -161,6 +161,6 @@ Beaucoup de personnes utilisent des données raster comme une toile de fond à u
 * On ne peut mesure la superficie d’un point alors qu’on peut avec un polygone
 * On ne peut additionner des polygones alors qu’on peut avec des raster
 
-*Dans cette formation, nous n’approfondirons pas les analyses avec des Raster. Ceux-ci sont moins utiles pour l’usage de base en géomatique.
+*Dans cette formation, nous n’approfondirons pas les analyses avec des Raster. Ceux-ci sont moins utiles pour l’usage de base en géomatique.*
 
 

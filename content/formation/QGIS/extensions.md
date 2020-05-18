@@ -13,22 +13,27 @@ weight: 10
 ---
 
 * Il existe des centaines d'extensions pour QGIS.
-* La qualité de ces extensions est assez variables.
+* La qualité de ces extensions est assez variable.
 * Voici quelques extensions que j'utilise. 
-* Nous ne couvrirons pas en détail leurs fonctionnement, mais juste vous indiquer ce quelles font. 
+* Nous ne couvrirons pas en détail leurs fonctionnements, mais juste vous indiquer ce qu’elles font. 
 
 ## Géoréférenceur GDAL
-L’extension de géoréférencement georefRun est un outil permettant de renseigner les coordonnées de rasters en générant les fichiers « world » (fichiers de référence indiquant les paramètres de translation, rotation et mise à l’échelle) ou de les transformer dans un nouveau système. La première étape pour le géoréférencement d’une image est de localiser, sur le raster, des points dont vous pouvez déterminer les coordonnées avec précision.
 
-## Quickmapservices
 
-* Fournit des fonds de carte via Internet.
+L’extension de géoréférencement est un outil permettant de renseigner les coordonnées de rasters en générant les fichiers « world » (fichiers de référence indiquant les paramètres de translation, rotation et mise à l’échelle) ou de les transformer dans un nouveau système. La première étape pour le géoréférencement d’une image est de localiser, sur le raster, des points dont vous pouvez déterminer les coordonnées avec précision.
 
+Utile pour "placer" un plan de drainage sur une carte.
+
+
+## [Quickmapservices](https://nextgis.com/blog/quickmapservices/)
+
+Fournis un menu permettant d'ajouter des fonds de carte provenant d'internet.
 
 ## Profile Tool
 
-* Permet de tracer une coupe topographique
+* Permet de tracer une coupe topographique sur un raster.
 
 ## QChainage
 
 * Permet de placer des points à chaque X mètres le long de lignes
+
