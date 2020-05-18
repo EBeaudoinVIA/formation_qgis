@@ -15,8 +15,9 @@ weight: 2
 
 La plupart des applications SIG regroupent les entités vectorielles dans des couches. Les entités d’une couche ont le même type de géométrie (par exemple, ils seront tous des points) et les mêmes types d’attributs (par exemple, l’information sur l’espèce d’un arbre au sein d’une couche arbres). C’est pratique, car il vous permet de masquer ou d’afficher toutes les caractéristiques de cette couche dans votre application SIG avec un simple clic de souris.
 
+{{< figure library="true" src="/img/img/misc/couche.png" title="United States Geological Survey / Public domain" lightbox="false" >}}
 
-![United States Geological Survey / Public domain](/img/img/misc/couche.png)
+
 
 
 
@@ -30,8 +31,9 @@ Lorsque vous utilisez un SIG (pensez à Google map), l'information peut ^tre pr�
 ## Vecteur
 
 
+{{< figure library="true" src="/img/img/misc/vecteur_vs_raster.png" title="Penn State's College of Earth and Mineral Science" lightbox="false" >}}
 
-![](/img/img/misc/vecteur_vs_raster.png)
+
 
 La donnée vectorielle est utilisée pour représenter les entités du monde réel dans un SIG.
 
@@ -56,8 +58,9 @@ La numérisation est le processus de création de données vecteur, en les dessi
 Les données vectorielles peuvent présenter des problèmes de qualité comme les croisements, les non-connexions et les écarts dont vous devez connaître l’existence.
 
 Les données vectorielles peuvent être utilisées pour des analyses spatiales dans une application SIG, par exemple pour trouver l’hôpital le plus proche d’une école.
-![Penn State's College of Earth and Mineral Science](/img/img/misc/vecteur.png)
 
+
+{{< figure library="true" src="/img/img/misc/vecteur_vs_raster.png" title="Penn State's College of Earth and Mineral Science" lightbox="false" >}}
 
 
 ## Entités
@@ -78,7 +81,8 @@ Une entité vectorielle a sa forme représentée en utilisant la géométrie. La
 * Chaque noeud est présenté par une paire de coordonnées (Lat 45.24, Lon -72.14)
 * Les noeuds peuvent avoir l'espacement qu'un veut
 
-![](/img/img/misc/vecteur.png)
+
+{{< figure library="true" src="/img/img/misc/vecteur.png" title="Penn State's College of Earth and Mineral Science" lightbox="false" >}}
 
 ## Champs 
 
@@ -89,8 +93,7 @@ Chaque champ dans la table attributaire contient un type de données spécifique
 * C’est l’information non spatiale contenue dans la base de données qui est associée à l’entité.
 * Dans la formation, on ne va pas utiliser le terme Champs pour désigner cette information pour des raisons évidentes...
 
-![Allison Horst / @allison_horst](/img/img/misc/table_attributs.png)
-
+{{< figure library="true" src="/img/img/misc/table_attributs.png" title="Allison Horst / @allison_horst" lightbox="false" >}}
 
 ## Shapefiles 
 
@@ -148,8 +151,8 @@ Beaucoup de personnes utilisent des données raster comme une toile de fond à u
 
 * Les images Raster peuvent consommer beaucoup d’espace de stockage.
 
+{{< figure library="true" src="/img/img/misc/raster.png" title="Penn State's College of Earth and Mineral Science" lightbox="false" >}}
 
-![](/img/img/misc/raster.png)
 
 ## Vecteurs vs Raster
 
@@ -159,5 +162,5 @@ Beaucoup de personnes utilisent des données raster comme une toile de fond à u
 * On ne peut additionner des polygones alors qu’on peut avec des raster
 
 *Dans cette formation, nous n’approfondirons pas les analyses avec des Raster. Ceux-ci sont moins utiles pour l’usage de base en géomatique.
-*
+
 
