@@ -7,8 +7,7 @@ menu:
   example:
     name: QGIS
     weight: 4
-summary: Learn how to use Academic's docs layout for publishing online courses, software
-  documentation, and tutorials.
+summary: Comment utiliser QGIS pour faire un plan de ferme.
 title: QGIS
 toc: true
 type: docs
