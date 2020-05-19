@@ -20,7 +20,7 @@ La première étape est de démarrer le modeleur graphique.
 {{< figure library="true" src="gif/start_modeler.gif" title="Ouvrir le modeleur" lightbox="true" >}}
 
 
-Ensuite on dénifit les entrées du modèle
+Ensuite on définit les entrées du modèle
 
 {{< figure library="true" src="gif/model_input.gif" title="Entrée du modèle" lightbox="true" >}}
 

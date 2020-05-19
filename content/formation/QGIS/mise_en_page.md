@@ -22,27 +22,27 @@ Avec les mises en page de cartes ou de rapports, vous pouvez créer des cartes e
 L'outil de mise en page de QGIS est assez complexe. Au lieu d'explorer les différents menus et fonctionnalités, nous allons créer une carte simple, étape par étape.
 
 
-## Propriétés de la page
+## 1- Propriétés de la page
 
 Tout d'abord, on choisit la taille de la page et son orientation. Par défaut la page est de taille A4 (format européen). Il suffit de cliquer droit dans le canevas, de sélectionner `Propriétés de la page`. Un menu apparaît à droite avec les différentes options.
 
 {{< figure library="true" src="gif/format_page.gif" title="Propriétés de la page" lightbox="true" >}}
 
 
-## Ajouter une carte
+## 2- Ajouter une carte
 
 Pour ajouter une carte au canevas, il faut cliquer sur l'icône `Ajoute une nouvelle carte à la mise en page`. On trace ensuite un rectangle où l'on souhaite voir la carte.
 
 {{< figure library="true" src="gif/ajout_carte.gif" title="Ajouter une carte" lightbox="true" >}}
 
 
-## Replacer la position
+## 3- Replacer la position
 
 Si on se déplace sur la carte dans le canevas principal, la carte dans la partie Mise en page n'est pas mise à jour. Toutefois, si on change les styles ou l'ordre des couches, la mise en page est mise à jour (même si ce n'est pas visible à l'écran lorsque vous l'exportez, il aura le style dans le canevas principal). Pour replacer la carte afin qu'elle corresponde avec le canevas principal, cliquer gauche sur la carte, puis dans le menu `Propriétés de l'élément`, cliquer sur le bouton `Régler l'emprise de la carte pour qu'elle corresponde à l'emprise du canevas principal`.
 
 {{< figure library="true" src="gif/replacer_carte.gif" title="Replacer la position" lightbox="true" >}}
 
-## Se déplacer sur la carte
+## 4- Se déplacer sur la carte
 
 Si vous souhaitez déplacer la carte sans passez par le canevas principal, vous pouvez utiliser l'outil `Déplacer le contenu de l'élément`. N'oubliez pas de revenir à l'outil de sélection ensuite.
 
@@ -50,39 +50,39 @@ Si vous souhaitez déplacer la carte sans passez par le canevas principal, vous 
 {{< figure library="true" src="gif/deplacer_carte.gif" title="Se déplacer sur la carte" lightbox="true" >}}
 
 
-## Tourner la carte et changer l'échelle
+## 5- Tourner la carte et changer l'échelle
 
 Sélectionner la carte, à droite dans le menu `Propriétés de l'élément`, vous pouvez définir la rotation et l'échelle de la carte. 
 
 
 {{< figure library="true" src="gif/tourner_carte.gif" title="Tourner la carte et changer l'échelle" lightbox="true" >}}
 
-## Ajouter une échelle
+## 6- Ajouter une échelle
 
 Pour ajouter une échelle, cliquer sur l'outil `Ajouter une échelle graphique à la mise en page`. Ensuite, tracez un rectangle ou vous souhaitez voir l'échelle. En sélectionnant l'échelle, puis en allant dans le menu `Propriétés de l'élément` vous aurez différentes options sur le style de l'échelle.
 
 {{< figure library="true" src="gif/echelle.gif" title="Ajouter une échelle" lightbox="true" >}}
 
-## Ajouter une rose des vents
+## 7- Ajouter une rose des vents
 
 Pour ajouter une rose des vents, cliquer sur l'outil `Ajoute une nouvelle Flèche du nord à la mise en page`. Ensuite, tracez un rectangle ou vous souhaitez voir la flèche. En sélectionnant la flèche, puis en allant dans le menu `Propriétés de l'élément` vous aurez différentes options sur le style de la flèche.
 
 
 {{< figure library="true" src="gif/rose.gif" title="Ajouter une rose des vents" lightbox="true" >}}
 
-## Ajouter une légende
+## 8- Ajouter une légende
 
 Pour ajouter une légende, cliquer sur l'outil `Ajoute une nouvelle Légende à la mise en page`. Ensuite, tracez un rectangle ou vous souhaitez voir la légende. En sélectionnant la légende, puis en allant dans le menu `Propriétés de l'élément` vous aurez différentes options sur le style de la légende.
 
 {{< figure library="true" src="gif/legende.gif" title="Ajouter une légende" lightbox="true" >}}
 
-## Ajouter du texte
+## 9- Ajouter du texte
 
 Pour ajouter une boîte de texte, cliquer sur l'outil `Ajoute une nouvelle Étiquette à la mise en page`. Ensuite, tracez un rectangle ou vous souhaitez voir la boîte de texte. En sélectionnant la boîte de texte, puis en allant dans le menu `Propriétés de l'élément` vous aurez différentes options sur le style de la boîte de texte. C'est à cet endroit que vous pourrez inscrire le texte.
 
 ![](/img/gif/texte.gif)
 
-## Ajouter un tableau
+## 10- Ajouter un tableau
 
 Pour ajouter un tableau, cliquer sur l'outil `Ajouter une nouvelle Table des attributs à la mise en page`. Ensuite, tracez un rectangle ou vous souhaitez voir le tableau. En sélectionnant le tableau, puis en allant dans le menu `Propriétés de l'élément` vous aurez différentes options sur le style du tableau.
 
@@ -93,7 +93,7 @@ Pour ajouter un tableau, cliquer sur l'outil `Ajouter une nouvelle Table des att
 
 ![](/img/gif/tableau.gif)
 
-## Exporter en pdf
+## 11- Exporter en pdf
 
 Dans la barre d'outil du haut cliquez sur `Exporter au format PDF`.
 

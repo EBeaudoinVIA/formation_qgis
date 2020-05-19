@@ -14,21 +14,22 @@ weight: 6
 
 Par défaut, QGIS charge les couches en lecture seule : c’est une sécurité pour éviter d’éditer accidentellement une couche. 
 
-Toutes les sessions d’édition commencent en cliquant sur le crayon que l’on trouve dans le menu contextuel de la couche en question, dans la boîte de dialogue de la table d’attributs, dans la barre d’outils de numérisation ou encore dans le menu Éditer.
+Toutes les sessions d’édition commencent en cliquant sur le crayon que l’on trouve dans le menu contextuel de la couche en question, dans la boîte de dialogue de la table d’attributs, **dans la barre d’outils de numérisation** ou encore dans le menu Éditer.
 
 
 Une fois que la couche est en mode d’édition, des boutons d’outils supplémentaires dans la barre d’outils d’édition sont disponibles et des symboles apparaissent aux sommets de toutes les entités.
 
-En général, les outils d’édition des couches vectorielles sont divisés en une barre d’outils de numérisation et une barre d’outils de numérisation avancée.
 
 ## Modifier les noeuds
 
 Pour toute couche vectorielle éditable, l’outil de noeud fournit des capacités de manipulation des sommets d’entités similaires aux programmes de dessins assistés par ordinateur (DAO). Il est possible de sélectionner simplement plusieurs sommets à la fois et de les déplacer, les ajouter ou les supprimer complètement.
 
-* Sélection de sommets : Vous pouvez sélectionner des sommets en cliquant dessus un par un en maintenant Shift enfoncée, ou en cliquant et en faisant glisser un rectangle autour de certains sommets. Lorsqu’un sommet est sélectionné, sa couleur devient bleue. Pour ajouter plus de sommets à la sélection actuelle, maintenez la touche Shift enfoncée tout en cliquant. Pour supprimer des sommets de la sélection, maintenez enfoncée la touche Ctrl.
+* Sélection de sommets : Vous pouvez sélectionner des sommets en cliquant dessus un par un en maintenant *Shift* enfoncée, ou en cliquant et en faisant glisser un rectangle autour de certains sommets. Lorsqu’un sommet est sélectionné, sa couleur devient bleue. Pour ajouter plus de sommets à la sélection actuelle, maintenez la touche *Shift* enfoncée tout en cliquant. Pour supprimer des sommets de la sélection, maintenez enfoncée la touche Ctrl. 
+
+* À tout moment vous pouvez annuler une modification en faisant les touches *Ctrl+Z*.
 
 
-* Ajout de sommets: un nouveau nœud virtuel apparaît au centre du segment. Saisissez-le simplement pour ajouter un nouveau sommet. Un double-clic sur n’importe quel emplacement de la limite crée également un nouveau nœud. Pour les lignes, un nœud virtuel est également proposé aux deux extrémités d’une ligne pour l’étendre.
+* Ajout de sommets: En déplaçant votre souri sur un segment, un nouveau nœud virtuel apparaît au centre du segment. Saisissez-le simplement pour ajouter un nouveau sommet. Un double-clic sur n’importe quel emplacement de la limite crée également un nouveau nœud. Pour les lignes, un nœud virtuel est également proposé aux deux extrémités d’une ligne pour l’étendre.
 
 
 

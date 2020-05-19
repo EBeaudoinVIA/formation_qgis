@@ -12,6 +12,8 @@ type: docs
 weight: 1
 ---
 
+Dans QGIS, il y a des menus et des boutons partout! Il peut être difficile de s'y retrouver au début. Voici un aperçu de l'interface.
+
 ## Barre de menu
 ![](/img/img/interface/barre_menu.png)
 
@@ -177,3 +179,4 @@ Pour l'ajouter, cliquer droit sur la barre d'outils et dans la section **Barre d
 | ![](/img/img/bouton/mActionMergeFeatures.png)   | Fusionner des entités      |
 | ![](/img/img/bouton/mActionVertexToolActiveLayer.png)   | Éditer les noeuds      |
 | ![](/img/img/bouton/mActionLayoutManager.png)   | Ouvrir la mise en page      |
+

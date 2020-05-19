@@ -28,20 +28,16 @@ Il est possible de modifier l'affichage des couches en cochant ou décochant les
 
 ![](/img/gif/Click-and-Drag-Middle-Button.gif)
 
-Vous pouvez presser la molette de la souris pour vous déplacer dans la fenêtre principale (sur macOS, vous devrez peut-être maintenir la touche cmd enfoncée). Vous pouvez faire rouler la molette de la souris pour zoomer et dézoomer sur la carte; la position du curseur de la souris sera le centre de la zone zoomé. Maintenir Ctrl en faisant rouler la molette entraîne un zoom plus fin.
+Vous pouvez presser la molette de la souris pour vous déplacer dans la fenêtre principale (sur macOS, vous devrez peut-être maintenir la touche *cmd* enfoncée). Vous pouvez faire rouler la molette de la souris pour zoomer et dézoomer sur la carte; la position du curseur de la souris sera le centre de la zone zoomé. Maintenir Ctrl en faisant rouler la molette entraîne un zoom plus fin.
 
 ### Avec les flèches du clavier
 
 Il est possible de se déplacer sur la carte en utilisant les flèches du clavier. Placez votre curseur sur la carte et appuyez sur la flèche de droite, de gauche, du haut et celle du bas.
 
 
-Les touches PgUp et PgDown du clavier provoquent un zoom avant ou arrière en fonction du facteur de zoom. 
+Les touches *PgUp* et *PgDown* du clavier provoquent un zoom avant ou arrière. 
 
 Quand certains outils de la carte sont actifs (Identifier des entités, Mesure…) vous pouvez zoomer en maintenant Shift et dessiner un rectangle sur la carte pour zoomer à cet endroit. Ce n’est pas activé pour les outils de sélection (car il utilise Shift pour ajouter à la sélection) ou les outils d’édition.
-
-
-
-
 
 ## Utiliser les outils
 

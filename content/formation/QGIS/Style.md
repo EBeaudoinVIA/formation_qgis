@@ -14,7 +14,7 @@ weight: 7
 
 Lorsqu’une couche est ajoutée au canevas de carte, QGIS utilise un symbole/couleur aléatoire pour le rendu de ses entités. Vous pouvez néanmoins paramétrer un symbole par défaut dans Projet –> Propriétés –> Styles par défaut qui sera appliqué à chaque nouvel ajout de couche selon le type géométrique de cette dernière.
 
-Cependant, la plupart du temps, vous voudrez disposer d’un style plus complexe et plus personnalisé 
+Cependant, la plupart du temps, vous voudrez disposer d’un style plus complexe et plus personnalisé.
 
 
 
@@ -44,7 +44,7 @@ Dans cet onglet où peut soit sélectionner un style préenregistré ou créer u
 
 
 
-On peut également faire varier la symbologie selon une colonne de la table attributaire. On peut soit assigner un style pour chaque valeur unique dans la table (par exemple avoir un style pour les parcelles louées et un pour les parcelles que le client possède) ou avoir un style qui varie selon un attribut numérique (changer la couleur selon la superficie d'une parcelle).
+On peut faire varier la symbologie selon une colonne de la table attributaire. On peut soit assigner un style pour chaque valeur unique dans la table (par exemple avoir un style pour les parcelles louées et un pour les parcelles que le client possède) ou avoir un style qui varie selon un attribut numérique (changer la couleur selon la superficie d'une parcelle).
 
 Dans l'onglet `Contrôle la symbologie de l'entité`, il suffit de  remplacer `Symbole unique` par `Catégorisé` ou `Gradué` dans le menu déroulant situé dans le haut.
 

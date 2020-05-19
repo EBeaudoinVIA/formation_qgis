@@ -26,7 +26,7 @@ Un projet contient entre autres:
 
 * Les mises en pages
 
-Il est utile d'avoir un projet par client ou par dossier. Vous pouvez y revenir plus tard et faire seulement une modification rapide.
+Il est utile d'avoir un projet par client ou par dossier (par exemple; un projet pour le plan de ferme et une autre pour son plan de drainage). Vous pouvez y revenir plus tard et faire seulement une modification rapide.
 
 Les projets QGIS sont enregistrés avec l'extension .qgz. Il s'agit en fait d'un fichier .zip contenant un fichier.qgs. Ce fichier est un document XML donc éditable dans un éditeur de texte. Si vous modifiez les projets ainsi, faites-vous une bonne sauvegarde de sécurité puisque c'est facile de faire une erreur.
 

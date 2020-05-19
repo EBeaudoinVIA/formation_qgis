@@ -13,6 +13,12 @@ weight: 11
 ---
 
 
+QGIS est un système d'information géographique, il doit donc y avoir de l'information géographique pour qu'il soit utile. On peut évidemment numériser les couches que l'on souhaite utiliser, mais des fois il est plus simple et plus précis de se fier sur des couches produites par d'autres.
+
+Voici un recueil de sources de données utiles pour les conseillers agricoles. 
+
+
+
 ## [Données Québec](https://www.donneesquebec.ca/recherche/fr/dataset?sort=metadata_created+desc&res_format=SHP)
 
 
@@ -30,14 +36,10 @@ Voici les couches que je trouve particulièrement utiles.
 
 * [Milieux humides](https://www.donneesquebec.ca/recherche/fr/dataset/milieux-humides-du-quebec)  
 
-
-## [Financière agricole](https://www.donneesquebec.ca/recherche/fr/organization/fadq)
-
 * [Centres et comptoirs de services de La Financière agricole](https://www.donneesquebec.ca/recherche/fr/dataset/centres-et-comptoirs-de-services-de-la-financiere-agricole-du-quebec)
 * [Territoires des stations météo](https://www.donneesquebec.ca/recherche/fr/dataset/territoires-des-stations-meteo)
 * [Zonage système collectif céréales et maïs fourrager](https://www.donneesquebec.ca/recherche/fr/dataset/zonage-systeme-collectif-cereales-et-mais-fourrager)
 * [Zonage système collectif maïs-grain](https://www.donneesquebec.ca/recherche/fr/dataset/zonage-systeme-collectif-mais-grain)
-
 
 * [Base de données des parcelles et productions agricoles déclarées](https://www.donneesquebec.ca/recherche/fr/dataset/base-de-donnees-des-parcelles-et-productions-agricoles-declarees-bdppad)
 
@@ -57,6 +59,17 @@ Un service de WFS retourne la couche en elle-même et pas uniquement une carte r
 
 
 Les gouvernements sont une source intéressante de données WMS et WFS. Voici une liste de serveur avec les couches disponible.
+
+Pour ajouter une couche WMS ou WFS, vous devez:
+
+1. Dans le menu couche, cliquez sur `Ajouter une couche WMS`
+1. Cliquez sur `Nouveau`
+1. Donnez un nom à la connexion et saisissez l'url
+1. Cliquez sur connexion
+1. Choississez la couche à ajouter et double-cliquez dessus
+
+{{< figure library="true" src="gif/WMS.gif" title="Ajouter une couche WMS" lightbox="true" >}}
+
 
 | Type       | URL                                                                                                 | Couches                                                                                               |
 |----------- |---------------------------------------------------------------------------------------------------- |------------------------------------------------------------------------------------------------------ |
