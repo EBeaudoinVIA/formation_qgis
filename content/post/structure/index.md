@@ -1,5 +1,14 @@
 ---
-date: "2020-05-19" diagram: true image:   caption: "Crédit photo: [**Robert Bye**](https://unsplash.com/photos/BY34glOW7wA)"   placement: 3 math: true title: Comment structurer vos dossiers de géomatique ---
+date: "2020-05-19"
+diagram: true
+image:
+  caption: "Crédit photo: [**Robert Bye**](https://unsplash.com/photos/BY34glOW7wA)"
+  placement: 3
+math: true
+title: Comment structurer vos dossiers de géomatique
+---
+
+
 L'organisation des dossiers peut paraître un sujet futile, vous planifier gérer les données géomatiques comme vos autres dossiers client. Vous faites erreur. Les fichiers en géomatique peuvent rapidement se multiplier, et prendre énormément d’espace. Avoir une stratégie dès le départ est essentiel.
 La première chose que vous devriez réfléchir est sur l’emplacement des fichiers. Les fichiers de client (plan de ferme, amas, fossé, etc.) devraient-ils être dans le dossier client? C’est assurément la méthode la plus simple. Si vous cherchez le plan de ferme d’un certain client, vous allez savoir ou le trouver. Toutefois, la notion de ce qui est propre à un client et ce qui est partagé par plusieurs peut devenir floue. Un fossé entre les champs de 2 clients devrait être dans quel dossier? Vous pourriez l’avoir dans les deux dossiers, mais si quelqu’un le modifie, il faut se souvenir d’aller le changer dans l’autre dossier. Je vous suggère donc de centraliser vos données géomatiques au même endroit. Donc d’avoir **un** shapefile de fossé, **un** d’amas, **un** de cours d’eau et **un** de plan de ferme. 
 
