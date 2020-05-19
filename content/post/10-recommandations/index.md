@@ -1,21 +1,13 @@
 ---
-title: 10 recommandations pour débuter avec QGIS
-author: admin
-date: '2020-05-14'
-slug: 10-recommandations-pour-débuter-avec-qgis
-categories: []
-tags: []
-subtitle: ''
-summary: 'Une liste de recommandation pour débuter à utiliser QGIS'
-authors: []
-lastmod: '2020-05-19T09:50:07-04:00'
-featured: no
+date: "2020-05-19"
+diagram: true
 image:
-  caption: ''
-  focal_point: ''
-  preview_only: no
-projects: []
+  caption: "Crédit photo: [**Elena Koycheva**](https://unsplash.com/photos/GUYCM0jhuSA)"
+  placement: 3
+math: true
+title: 10 recommandations pour débuter avec QGIS
 ---
+
 
 ## 10 - Google
 
