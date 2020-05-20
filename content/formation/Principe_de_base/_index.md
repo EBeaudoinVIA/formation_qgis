@@ -1,4 +1,4 @@
----
+﻿---
 date: "2020-05-19T00:00:00Z"
 draft: false
 lastmod: "2020-05-19T00:00:00Z"
@@ -15,5 +15,5 @@ weight: 2
 ---
 
 
-Avant de s'attaquer à QGIS, il y a des notions qu'on doit couvrir. Ces sujets s'avèrent très importants, il est essentiel de bien les comprendre, n'hésitez pas à revenir à ces pages au courant de la formation pour vous rafraîchir la mémoire.
+Avant de s'attaquer à QGIS, il y a des notions qu'on doit couvrir. Comme ces sujets s'avèrent très importants, il est essentiel de bien les comprendre. N'hésitez donc pas à revenir à ces pages au courant de la formation pour vous rafraîchir la mémoire.
 

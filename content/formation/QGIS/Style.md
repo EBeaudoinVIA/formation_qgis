@@ -1,4 +1,4 @@
----
+﻿---
 date: "2020-05-19T00:00:00+01:00"
 draft: false
 linktitle: Style
@@ -22,7 +22,7 @@ Cependant, la plupart du temps, vous voudrez disposer d’un style plus complexe
 
 Si une entité est symbolisée sans utiliser les données de la table attributaire, elle peut seulement être symbolisée d’une façon simple. Par exemple avec des entités de point, vous pouvez configurer la couleur et le symbole (cercle, carré, étoile, etc.), mais c’est tout. 
 
-Un symbole peut consister en plusieurs couches de symbole superposé avec des formes, des couleurs, des tailles et des niveaux de transparence différents.
+Un symbole peut consister en plusieurs couches de symboles superposées avec des formes, des couleurs, des tailles et des niveaux de transparence différents.
 
 
 
@@ -30,11 +30,11 @@ Un symbole peut consister en plusieurs couches de symbole superposé avec des fo
 
 Pour définir la symbologie, on clique droit sur une couche puis on sélectionne `Propriétés...`. On peut également double cliquer sur la couche.
 
-Ensuite on sélectionne l'onglet `Contrôle la symbologie de l'entité`.
+Ensuite, on sélectionne l'onglet `Contrôle la symbologie de l'entité`.
 
 ![](/img/img/bouton/symbology.png)
 
-Dans cet onglet où peut soit sélectionner un style préenregistré ou créer un nouveau style.
+Dans cet onglet, on peut soit sélectionner un style préenregistré ou créer un nouveau style.
 
 
 {{< figure library="true" src="gif/symbologie.gif" title="Définir la symbologie" lightbox="true" >}}
@@ -59,7 +59,7 @@ Dans la fenêtre `Propriété de la couche` on peut également ajouter des étiq
 
 ![](/img/img/bouton/labelingSingle.png)
 
-Dans le menu déroulant du haut, sélectionner `Étiquettes simples`, puis de la barre valeur choisissez un attribut ou saisissez une formule. Les options contenues dans cet onglet permettent de changer la police, l'arrière-plan, la position, l'orientation et la visibilité des étiquettes selon l'échelle. 
+Dans le menu déroulant du haut, sélectionnez `Étiquettes simples`, puis de la barre valeur, choisissez un attribut ou saisissez une formule. Les options contenues dans cet onglet permettent de changer la police, l'arrière-plan, la position, l'orientation et la visibilité des étiquettes selon l'échelle. 
 
 
 {{< figure library="true" src="gif/etiquette.gif" title="Étiquettes" lightbox="true" >}}

@@ -1,4 +1,4 @@
----
+﻿---
 date: "2020-05-19T00:00:00+01:00"
 draft: false
 linktitle: Sources de données
@@ -13,7 +13,7 @@ weight: 11
 ---
 
 
-QGIS est un système d'information géographique, il doit donc y avoir de l'information géographique pour qu'il soit utile. On peut évidemment numériser les couches que l'on souhaite utiliser, mais des fois il est plus simple et plus précis de se fier sur des couches produites par d'autres.
+QGIS est un système d'information géographique, il doit donc y avoir de l'information géographique pour qu'il soit utile. On peut évidemment numériser les couches que l'on souhaite utiliser, mais parfois il est plus simple et plus précis de se fier sur des couches produites par d'autres.
 
 Voici un recueil de sources de données utiles pour les conseillers agricoles. 
 
@@ -51,14 +51,12 @@ Voici les couches que je trouve particulièrement utiles.
 
 Un Web Mapping Service (WMS, qui signifie Service de cartographie web en anglais) est un service hébergé sur un serveur distant. Semblable à un site web, vous pouvez y accéder tant que vous avez une connexion au serveur. En utilisant QIGS, vous pouvez charger un répertoire WMS directement dans votre carte existante.
 
-Vous devez vous souvenir de la leçon sur les extensions qu’il est possible de charger une nouvelle image raster depuis Google, par exemple. Cependant, il s’agit d’une transaction ponctuelle : une fois que vous avez téléchargé l’image, elle ne change pas. Un WMS est différent dans le fait que c’est un service en direct qui actualisera automatiquement sa vue si vous déplacez ou zoomez sur la carte.
-
 Un Web Feature Service (WFS) fournit à ses utilisateurs des données SIG dans des formats qui peuvent être directement chargés dans QGIS. À la différence d’un WMS, qui vous fournit seulement une carte que vous ne pouvez pas modifier, un WFS vous donne accès aux entités elles-mêmes.
 
-Un service de WFS retourne la couche en elle-même et pas uniquement une carte rendue avec. Cela vous donne un accès direct à la donnée et signifie que vous pouvez changer sa symbologie et lancer des fonctions d’analyse dessus. Néanmoins, cela se fait en transmettant beaucoup plus de données. Cela se révélera particulièrement inadapté si les couches que vous chargez ont des formes complexes, un grand nombre d’attributs ou de nombreuses entités ou encore si vous chargez un grand nombre de couches. Les couches WFS prennent un temps non négligeable à se charger à cause de tout cela.
+Un service de WFS retourne la couche en elle-même. Cela vous donne un accès direct à la donnée et signifie que vous pouvez changer sa symbologie et lancer des fonctions d’analyse dessus. Néanmoins, cela se fait en transmettant beaucoup plus de données. Cela se révélera particulièrement inadapté si les couches que vous chargez ont des formes complexes, un grand nombre d’attributs ou de nombreuses entités ou encore si vous chargez un grand nombre de couches. Les couches WFS prennent un temps non négligeable à se charger à cause de tout cela.
 
 
-Les gouvernements sont une source intéressante de données WMS et WFS. Voici une liste de serveur avec les couches disponible.
+Les gouvernements sont une source intéressante de données WMS et WFS. Voici une liste de serveurs avec les couches disponibles.
 
 Pour ajouter une couche WMS ou WFS, vous devez:
 
@@ -66,7 +64,7 @@ Pour ajouter une couche WMS ou WFS, vous devez:
 1. Cliquez sur `Nouveau`
 1. Donnez un nom à la connexion et saisissez l'url
 1. Cliquez sur connexion
-1. Choississez la couche à ajouter et double-cliquez dessus
+1. Choisissez la couche à ajouter et double-cliquez dessus
 
 {{< figure library="true" src="gif/WMS.gif" title="Ajouter une couche WMS" lightbox="true" >}}
 

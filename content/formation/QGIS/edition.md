@@ -1,4 +1,4 @@
----
+﻿---
 date: "2020-05-19T00:00:00+01:00"
 draft: false
 linktitle: Édition
@@ -24,18 +24,18 @@ Une fois que la couche est en mode d’édition, des boutons d’outils supplém
 
 Pour toute couche vectorielle éditable, l’outil de noeud fournit des capacités de manipulation des sommets d’entités similaires aux programmes de dessins assistés par ordinateur (DAO). Il est possible de sélectionner simplement plusieurs sommets à la fois et de les déplacer, les ajouter ou les supprimer complètement.
 
-* Sélection de sommets : Vous pouvez sélectionner des sommets en cliquant dessus un par un en maintenant *Shift* enfoncée, ou en cliquant et en faisant glisser un rectangle autour de certains sommets. Lorsqu’un sommet est sélectionné, sa couleur devient bleue. Pour ajouter plus de sommets à la sélection actuelle, maintenez la touche *Shift* enfoncée tout en cliquant. Pour supprimer des sommets de la sélection, maintenez enfoncée la touche Ctrl. 
+* Sélection de sommets : Vous pouvez sélectionner des sommets en cliquant dessus un par un en maintenant *Shift* enfoncé, ou en cliquant et en faisant glisser un rectangle autour de certains sommets. Lorsqu’un sommet est sélectionné, sa couleur devient bleue. Pour ajouter plus de sommets à la sélection actuelle, maintenez la touche *Shift* enfoncée tout en cliquant. Pour supprimer des sommets de la sélection, maintenez enfoncée la touche Ctrl. 
 
-* À tout moment vous pouvez annuler une modification en faisant les touches *Ctrl+Z*.
+* À tout moment, vous pouvez annuler une modification en faisant les touches *Ctrl+Z*.
 
 
-* Ajout de sommets: En déplaçant votre souri sur un segment, un nouveau nœud virtuel apparaît au centre du segment. Saisissez-le simplement pour ajouter un nouveau sommet. Un double-clic sur n’importe quel emplacement de la limite crée également un nouveau nœud. Pour les lignes, un nœud virtuel est également proposé aux deux extrémités d’une ligne pour l’étendre.
+* Ajout de sommets: En déplaçant votre souris sur un segment, un nouveau nœud virtuel apparaît au centre du segment. Saisissez-le simplement pour ajouter un nouveau sommet. Un double-clic sur n’importe quel emplacement de la limite crée également un nouveau nœud. Pour les lignes, un nœud virtuel est également proposé aux deux extrémités d’une ligne pour l’étendre.
 
 
 
 * Suppression de sommets: Sélectionnez les sommets et cliquez sur la touche Supprimer. 
 
-* Déplacement des sommets: sélectionnez tous les sommets que vous souhaitez déplacer, cliquez sur un sommet ou une arête sélectionnée, puis cliquez à nouveau sur le nouvel emplacement souhaité. Tous les sommets sélectionnés se déplaceront ensemble. 
+* Déplacement des sommets: Sélectionnez tous les sommets que vous souhaitez déplacer, cliquez sur un sommet ou une arête sélectionnée, puis cliquez à nouveau sur le nouvel emplacement souhaité. Tous les sommets sélectionnés se déplaceront ensemble. 
 
 
 
@@ -43,20 +43,20 @@ Pour toute couche vectorielle éditable, l’outil de noeud fournit des capacit�
 
 ## Découper
 
-Utilisez l’outil  `Séparer entités` pour diviser une entité en deux ou plusieurs nouvelles entités indépendantes, c’est-à-dire. chaque géométrie correspondant à une nouvelle ligne dans la table attributaire.
+Utilisez l’outil  `Séparer entités` pour diviser une entité en deux ou plusieurs nouvelles entités indépendantes.
 
 
 Tracez une ligne sur la ou les entités que vous souhaitez couper. La ligne doit dépasser l'entité que vous souhaitez couper. Si une sélection est active, seules les entités sélectionnées sont coupées.
 
 Vous pouvez ensuite, comme d’habitude, modifier l’un des attributs de toute entité résultante.
 
-1. Démarrer le mode édition
-1. Sélectionner l'outil de découpage
-1. Commencer le découpage en dehors de l'entité
-1. Finir le découpage en dehors de l'entité
-1. Clique droit pour terminer
-1. Enregistrer
-1. Arrêter le mode édition
+1. Démarrez le mode édition
+1. Sélectionnez l'outil de découpage
+1. Commencez le découpage en dehors de l'entité
+1. Finissez le découpage en dehors de l'entité
+1. Cliquez droit pour terminer
+1. Enregistrez
+1. Arrêtez le mode édition
 
 
 
@@ -64,7 +64,7 @@ Vous pouvez ensuite, comme d’habitude, modifier l’un des attributs de toute 
 
 ## Fusionner
 
-L’outil `Fusionner les entités sélectionnées` permet de créer une nouvelle entité à partir d’entités existantes: sa géométrie est le résultat de la fusion des géométries de départ. Si les entités n’ont pas de frontière commune alors un multi-polygone/multiligne/multipoint sera créé.
+L’outil `Fusionner les entités sélectionnées` permet de créer une nouvelle entité à partir d’entités existantes: sa géométrie est le résultat de la fusion des géométries de départ. Si les entités n’ont pas de frontière commune, alors un multi-polygone/multiligne/multipoint sera créé.
 
 Si vous souhaitez fusionner des parcelles agricoles, assurez-vous que les limites des parcelles se recoupent.
 
@@ -72,13 +72,13 @@ Tout d’abord, sélectionnez les entités que vous souhaitez combiner.
 
 Appuyez ensuite sur le bouton fusionner les entités sélectionnées.
 
-Dans la nouvelle boîte de dialogue, la ligne `fusionner` en bas du tableau affiche les attributs de l’entité résultante. Vous pouvez modifier l’une de ces valeurs en:
+Dans la nouvelle boîte de dialogue, la ligne `fusionner` en bas du tableau affiche les attributs de l’entité résultante. Vous pouvez modifier l’une de ces valeurs en :
 
-remplacer manuellement la valeur dans la cellule correspondante;
+remplaçant manuellement la valeur dans la cellule correspondante;
 
-sélectionner une ligne dans le tableau et appuyer sur Récupérer les attributs de l’entité sélectionnée pour utiliser les valeurs de cette entité initiale;
+sélectionnant une ligne dans le tableau et appuyer sur Récupérer les attributs de l’entité sélectionnée pour utiliser les valeurs de cette entité initiale;
 
-en appuyant sur Ignorer tous les attributs pour utiliser des attributs vides;
+appuyant sur Ignorer tous les attributs pour utiliser des attributs vides.
 
 
 

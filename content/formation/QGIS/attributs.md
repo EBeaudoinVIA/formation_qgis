@@ -1,4 +1,4 @@
----
+﻿---
 date: "2020-05-19T00:00:00+01:00"
 draft: false
 linktitle: Table d'attributs
@@ -19,7 +19,7 @@ La table d’attributs affiche des informations sur les entités d’une couche 
 
 
 
-## Ouvrir la table d'attribut
+## Ouvrir la table d'attributs
 
 Pour ouvrir la table attributaire d’une couche vectorielle, activez la couche en cliquant dessus depuis le panneau Couches.  Vous pouvez aussi y accéder avec un clic droit sur la couche puis en sélectionnant ![](/img/img/bouton/mActionOpenTable.png).
 
@@ -28,11 +28,11 @@ Pour ouvrir la table attributaire d’une couche vectorielle, activez la couche 
 
 L’édition des valeurs attributaires peut être faite en :
 
-* saisissant directement la nouvelle valeur dans la cellule. Les modifications sont ainsi faites cellule par cellule, entité par entité ;
+* saisissant directement la nouvelle valeur dans la cellule. Les modifications sont ainsi faites cellule par cellule, entité par entité;
 
-* utilisant la calculatrice de champs
+* utilisant la calculatrice de champs;
 
-* utilisant barre de calcul rapide de champ
+* utilisant barre de calcul rapide de champ.
 
 
 ## Saisir de l'information
@@ -48,7 +48,7 @@ L’édition des valeurs attributaires peut être faite en :
 
 
 
-## Ajout et suppression de colonne
+## Ajout et suppression de colonnes
 
 
 
@@ -59,23 +59,23 @@ L’édition des valeurs attributaires peut être faite en :
 1. Arrêtez le mode édition
 
 
-{{< figure library="true" src="gif/ajouter_colonne.gif" title="Ajout et suppression de colonne" lightbox="true" >}}
+{{< figure library="true" src="gif/ajouter_colonne.gif" title="Ajout et suppression de colonnes" lightbox="true" >}}
 
 ## Aire et longueur
 
 
 1. Sélectionnez le champ à mettre à jour dans la barre de calcul rapide de champ.
-1.Cliquez sur le bouton `Tout mettre à jour`, `Mettre à jour la sélection` ou `Mise à jour filtrée` selon vos besoins.
-1.Pour calculer la superficie, utilisez l'expression `$area`. 
+1. Cliquez sur le bouton `Tout mettre à jour`, `Mettre à jour la sélection` ou `Mise à jour filtrée` selon vos besoins.
+1. Pour calculer la superficie, utilisez l'expression `$area`. 
 
 
-Par défaut, la superficie est calculée en m². Il est possible de changer l'unité par défaut, mais on peut tout aussi bien effectuer la transformation à même l'expression: `$area / 10000`. On peut également choisir le nombre de décimal en utilisant `format_number($area / 10000, 2)`.
+Par défaut, la superficie est calculée en m². Il est possible de changer l'unité par défaut, mais on peut tout aussi bien effectuer la transformation à même l'expression: `$area / 10000`. On peut également choisir le nombre de décimales en utilisant `format_number($area / 10000, 2)`.
 
 
 Il est également possible d'ajouter la superficie à partir de la boîte à outils en utilisant la fonction `Ajouter les attributs de géométrie`
 
 
-Pour les longueurs, c'est le même principe seulement `$length` à la place.
+Pour les longueurs, c'est le même principe en utilisant `$length` à la place.
 
 {{% alert warning %}}
 
