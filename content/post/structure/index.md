@@ -15,7 +15,8 @@ La première chose que vous devriez réfléchir est sur l’emplacement des fich
 De cette façon il est beaucoup plus facile de trouver l’information que l’on cherche (mon côté machine learning vous remercie en avance...). Mais qui dit fichier centralisé, dit bonne gestion, puisqu'une erreur est si vite arrivée. Il est essentiel de faire des sauvegardes de sécurité (*backup*). Réfléchissez également à l’information qui devrait se retrouver dans chaque couche. Idéalement, l’information ne devrait pas se dédoubler, mais vous souhaitez avoir toute l’information requise à portée de main. Voici donc la structure que je suggère.
 Dans un dossier que tous les utilisateurs ont accès, je mets les couches qui contiennent l'information que l'on numérise ou modifie:
 
-{{< figure library="true" src="img/img/misc/structure.svg" title="Structure proposée" lightbox="true" >}}
+
+![](img/img/misc/structure.svg)
 
 Ensuite dans un autre dossier, je mets l'information de base, mais que l'on ne modifie pas (on pourrait mettre le dossier en lecture seule pour les plus paranos).
 * Cours d'eau
