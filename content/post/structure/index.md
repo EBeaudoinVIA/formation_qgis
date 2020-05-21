@@ -14,7 +14,9 @@ La première chose que vous devriez réfléchir est sur l’emplacement des fich
 
 De cette façon il est beaucoup plus facile de trouver l’information que l’on cherche (mon côté machine learning vous remercie en avance...). Mais qui dit fichier centralisé, dit bonne gestion, puisqu'une erreur est si vite arrivée. Il est essentiel de faire des sauvegardes de sécurité (*backup*). Réfléchissez également à l’information qui devrait se retrouver dans chaque couche. Idéalement, l’information ne devrait pas se dédoubler, mais vous souhaitez avoir toute l’information requise à portée de main. Voici donc la structure que je suggère.
 Dans un dossier que tous les utilisateurs ont accès, je mets les couches qui contiennent l'information que l'on numérise ou modifie:
-img/img/misc/structure.svg)
+
+{{< figure library="true" src="img/img/misc/structure.svg" title="Structure proposée" lightbox="true" >}}
+
 Ensuite dans un autre dossier, je mets l'information de base, mais que l'on ne modifie pas (on pourrait mettre le dossier en lecture seule pour les plus paranos).
 * Cours d'eau
 * Pédologie
@@ -22,6 +24,7 @@ Ensuite dans un autre dossier, je mets l'information de base, mais que l'on ne m
 * Cadastre
 * Index des orthophotos et du LiDAR
 * Milieux humides
+
 Finalement, je crée un dossier qui contient mes modèles autant les modèles de projet QGIS, les modèles de mise en page que les styles prédéfinis. Même si vous êtes seul à travailler avec QGIS, je vous incite à adopter une structure similaire.
 Lorsqu'on doit exporter le fichier de plan de ferme pour l'importer dans le logiciel de fertilisation, je suggère de faire les jointures spatiales requises et de l'exporter dans un fichier avec la date, il s'agit d'une *photo* du plan de ferme à cette date-là.
 Pour les données plus volumineuses (Orthophoto, LiDAR). Vous pouvez les avoir sur votre ordinateur. Ça va accélérer le chargement.
