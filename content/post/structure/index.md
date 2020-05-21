@@ -16,7 +16,7 @@ De cette façon il est beaucoup plus facile de trouver l’information que l’o
 Dans un dossier que tous les utilisateurs ont accès, je mets les couches qui contiennent l'information que l'on numérise ou modifie:
 
 
-![](img/img/misc/structure.svg)
+![](img/img/misc/structure.png)
 
 Ensuite dans un autre dossier, je mets l'information de base, mais que l'on ne modifie pas (on pourrait mettre le dossier en lecture seule pour les plus paranos).
 * Cours d'eau
