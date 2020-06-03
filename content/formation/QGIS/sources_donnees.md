@@ -1,4 +1,4 @@
-﻿---
+---
 date: "2020-05-19T00:00:00+01:00"
 draft: false
 linktitle: Sources de données
@@ -77,6 +77,6 @@ Pour ajouter une couche WMS ou WFS, vous devez:
 | WMS        | https://geoegl.msp.gouv.qc.ca/ws/bdga.fcgi                                                          | Ville<br>Région<br>MRC<br>Routes<br>Électricité<br>Rivières                                           |
 | WMS        | https://servicesmatriciels.mern.gouv.qc.ca/erdas-iws/ogc/wms/Cartes_Images                          | Fond de carte                                                                                         |
 | WMS        | https://geo.weather.gc.ca/geomet/?lang=F                                                            | Météo                                                                                                 |
-| WMS        | https://maps.ducks.ca/arcgis/services/Public/QC_Carto_MH_sudqc_mai2019/MapServer/WMSServer          | Milieux humides                                                                                       |
-| WMS<br>WFS  | https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi?                                                   | Données écoforestières<br>Téléchargement de LiDAR<br>                                                 |
+| WMS        | https://www.servicesgeo.enviroweb.gouv.qc.ca/donnees/services/Public/Themes_publics/MapServer/WMSServer     | Milieux humides potentiels                                                                                       |
+| WMS<br>WFS  | https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi?                                                   | Inventaire écoforestier<br>Téléchargement de LiDAR<br>                                                 |
 
