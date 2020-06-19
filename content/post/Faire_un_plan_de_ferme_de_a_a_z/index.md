@@ -13,7 +13,7 @@ Voici la procédure simple pour faire un plan de ferme pour un nouveau client et
 
 ## 1. Téléchargez le projet démo
 
-Pour faciliter votre travail dans QGIS, nous avons préparé des projets préconfigurés, contenant les couches d'informations requises, des styles et des mises en page prédéfinies. Nous vous invitons à télécharger un des modèles divisé par région administrative ci-dessous. 
+Pour faciliter votre travail dans QGIS, nous avons préparé des projets pré-configurés, contenant les couches d'informations requises, des styles et des mises en page prédéfinies. Nous vous invitons à télécharger un des modèles divisés par région administrative ci-dessous. 
 
 
 <iframe src="https://drive.google.com/embeddedfolderview?id=1XXKXesdTfglVrqOAHMuY6uvCyp07pcso#list" width="100%" height="500" frameborder="0"title=”Projet démo par région administrative"></iframe>
@@ -51,23 +51,23 @@ On fait copier (ctrl+c), on clique sur le plan de ferme, on démarre le mode éd
 
 ## 8. Numérisez les contraintes (puits, fossé, cours d'eau)
 
-Pour les puits et les fossés, il faut les numériser, donc on clique sur la couche approprié, et on ajoute des entités. Pour les cours d'eau, la couche de cours d'eau de ... est déjà dans le projet, vous pourriez la modifié si vous le désirez.
+Pour les puits et les fossés, il faut les numériser, donc on clique sur la couche appropriée, et on ajoute des entités. Pour les cours d'eau, la couche de cours d'eau de ... est déjà dans le projet, vous pourriez la modifié si vous le désirez.
 
   
 ## 9. Chargez le modèle "zone_tampon"
 
 
-Pour charger un modèle, on doit ouvrir la boîte à outil. Dans la boîte à outil dans le haut, on clique sur l'icone modèle puis ajouter un modèle. Dans le dossier commun/script du projet que vous avez téléchargé, se trouve différents modèle, on va aller chercher le modèle zone_tampon.
+Pour charger un modèle, on doit ouvrir la boîte à outils. Dans la boîte à outil dans le haut, on clique sur l'icône modèle puis ajoutée un modèle. Dans le dossier commun/script du projet que vous avez téléchargé se trouvent différents modèles, on va aller chercher le modèle zone_tampon.
 
 
 ## 10. Utilisez le modèle "zone_tampon"
 
-Dans la boite à outil sous modèle-plan de ferme, on double-clique sur zone_tampon. On choisi les couches appropriés et les distance requises. On clique sur exécuter.
+Dans la boîte à outils sous modèle-plan de ferme, on double-clique sur zone_tampon. On choisit les couches appropriées et les distances requises. On clique sur exécuter.
 
 
 ## 11. Copiez-collez les entités
 
-On sélectionne toute les entités de la couche "À Enregistrer" puis on les copie-colle dans la couche plan de ferme.
+On sélectionne toutes les entités de la couche "À enregistrer" puis on les copie-colle dans la couche plan de ferme.
 
 
 ## 12. Supprimez les entités précédentes
@@ -77,7 +77,7 @@ On vient de dupliquer notre couche plan de ferme, nous allons ouvrir la table d'
 
 ## 13. Renommez les champs
 
-La couche parcelle agricole ne contient pas les numéro de parcelle, si l'on souhaite avoir les numéro de parcelle, nous devons allez saisir l'information dans la table d'attribut de plan de ferme.
+La couche parcelle agricole ne contient pas les numéros de parcelle, si l'on souhaite avoir les numéros de parcelle, nous devons allez saisir l'information dans la table d'attribut de plan de ferme.
 
 
 ## 14. Enregistrez la couche et supprimez les couches temporaires
@@ -119,3 +119,4 @@ Cliquer sur l'icône PDF pour enregistrer la carte ne format PDF.
 ## 20. Enregistrez le projet
 
 N'oublier pas d'enregistrer le projet.
+
