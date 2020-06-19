@@ -13,7 +13,7 @@ Voici la procédure simple pour faire un plan de ferme pour un nouveau client et
 
 ## 1. Téléchargez le projet démo
 
-Pour facilitr votre travail dans QGIS, nous avons préparé des projets préconfigurés, contenant les couches d'informations requises, des styles et des mises en page prédéfinies. Nous vous invitons à télécharger un des modèles divisé par région administrative ci-dessous. 
+Pour faciliter votre travail dans QGIS, nous avons préparé des projets préconfigurés, contenant les couches d'informations requises, des styles et des mises en page prédéfinies. Nous vous invitons à télécharger un des modèles divisé par région administrative ci-dessous. 
 
 
 <iframe src="https://drive.google.com/embeddedfolderview?id=1XXKXesdTfglVrqOAHMuY6uvCyp07pcso#list" width="100%" height="500" frameborder="0"title=”Projet démo par région administrative"></iframe>
