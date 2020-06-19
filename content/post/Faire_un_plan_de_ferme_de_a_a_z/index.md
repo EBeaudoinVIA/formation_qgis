@@ -2,7 +2,7 @@
 date: "2020-06-19"
 diagram: true
 image:
-  caption: "Crédit photo: [**Elena Koycheva**](https://unsplash.com/photos/GUYCM0jhuSA)"
+  caption: "Crédit photo: [**Annie Spratt**](https://unsplash.com/photos/AFB6S2kibuk)"
   placement: 3
 math: true
 title: Faire un plan de ferme de A à Z
@@ -13,7 +13,9 @@ Voici la procédure simple pour faire un plan de ferme pour un nouveau client et
 ## Télécharger le projet démo
 
 
-<iframe src="https://drive.google.com/embeddedfolderview?id=1XXKXesdTfglVrqOAHMuY6uvCyp07pcso#list" width="100%" height="500" frameborder="0"title=”PDFs of SUBSTITUTE YOUR OWN FOLDER TOPIC HERE on Google Drive"></iframe>
+<iframe src="https://drive.google.com/embeddedfolderview?id=1XXKXesdTfglVrqOAHMuY6uvCyp07pcso#list" width="100%" height="500" frameborder="0"title=”Projet démo par région administrative"></iframe>
+
+## Dézipper le projet démo
 
 
 ## Dupliquer le client démo
