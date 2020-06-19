@@ -16,36 +16,52 @@ Voici la procédure simple pour faire un plan de ferme pour un nouveau client et
 Pour faciliter votre travail dans QGIS, nous avons préparé des projets pré-configurés, contenant les couches d'informations requises, des styles et des mises en page prédéfinies. Nous vous invitons à télécharger un des modèles divisés par région administrative ci-dessous. 
 
 
+
+
+
 <iframe src="https://drive.google.com/embeddedfolderview?id=1XXKXesdTfglVrqOAHMuY6uvCyp07pcso#list" width="100%" height="500" frameborder="0"title=”Projet démo par région administrative"></iframe>
+
+
+
+{{< figure library="true" src="gif/telecharger_modele.gif" title="Téléchargez un modèle" lightbox="true" >}}
+
+
+
+
 
 ## 2. Dézippez le projet démo
 
 Avant de travailler avec le projet, il faut le dézipper. Cliquer droit sur le fichier téléchargé puis faites extraire tout.
 
-## 3. Dupliquez le client démo
-
-Une fois dézippé, on clique sur le dossier "client_demo", puis on fait copier-coller pour le dupliquer. On le renomme avec le nom de notre client.
 
 
-## 4. Ouvrez le projet
- 
-Dans le dossier nouvellement créer, on renomme le projet "client_demo.qgz" pour le nom de notre client. Ensuite on double-clique dessus pour l'ouvrir. 
+{{< figure library="true" src="gif/dezip.gif" title="Dézippez le fichier" lightbox="true" >}}
+
+
+## 3. Dupliquez le client démo et Ouvrez le projet
+
+Une fois dézippé, on clique sur le dossier "client_demo", puis on fait copier-coller pour le dupliquer. On le renomme avec le nom de notre client.Dans le dossier nouvellement créer, on renomme le projet "client_demo.qgz" pour le nom de notre client. Ensuite on double-clique dessus pour l'ouvrir. 
+
+
+
 
 ## 5. Description de l'information dans le projet
 
 Dans le projet qu'on vient d'ouvrir, nous avons déjà ajouté plusieurs couches. Voici la liste des couches et une brève description.
 
 
-## 6. Sélectionnez les parcelles du client
-
-
-Pour ajouter des parcelles à notre plan de ferme du client, on clique sur parcelle agricole, puis on sélectionne les parcelles qu'on souhaite ajouter. 
 
 
 
-## 7. Copiez-collez dans la couche plan de ferme
+## 6. Sélectionnez les parcelles du client et copiez-collez les dans plan de ferme
 
-On fait copier (ctrl+c), on clique sur le plan de ferme, on démarre le mode édition et on fait coller (ctrl+v). On peut soit faire une parcelle à la fois ou en sélectionner plusieurs d'un coup. Si la parcelle n'est pas dans la couche parcelle agricole, vous allez devoir la numériser dans le plan de ferme.
+
+Pour ajouter des parcelles à notre plan de ferme du client, on clique sur parcelle agricole, puis on sélectionne les parcelles qu'on souhaite ajouter. On fait copier (ctrl+c), on clique sur le plan de ferme, on démarre le mode édition et on fait coller (ctrl+v). On peut soit faire une parcelle à la fois ou en sélectionner plusieurs d'un coup. Si la parcelle n'est pas dans la couche parcelle agricole, vous allez devoir la numériser dans le plan de ferme.
+
+
+{{< figure library="true" src="gif/selection_parcelle.gif" title="Sélectionnez les parcelles du client et copiez-collez les dans plan de ferme" lightbox="true" >}}
+
+
 
 
 
@@ -53,7 +69,9 @@ On fait copier (ctrl+c), on clique sur le plan de ferme, on démarre le mode éd
 
 Pour les puits et les fossés, il faut les numériser, donc on clique sur la couche appropriée, et on ajoute des entités. Pour les cours d'eau, la couche de cours d'eau de ... est déjà dans le projet, vous pourriez la modifié si vous le désirez.
 
-  
+
+{{< figure library="true" src="gif/numeriser_puits_fosse.gif" title="Numérisez les contraintes (puits, fossé, cours d'eau)" lightbox="true" >}}
+
 ## 9. Chargez le modèle "zone_tampon"
 
 
