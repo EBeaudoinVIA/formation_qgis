@@ -5,46 +5,52 @@ image:
   caption: "Crédit photo: [**Annie Spratt**](https://unsplash.com/photos/AFB6S2kibuk)"
   placement: 3
 math: true
-title: Faire un plan de ferme de A à Z
+numbersections: true
+title: Faire un plan de ferme en 20 étapes
 ---
 
 Voici la procédure simple pour faire un plan de ferme pour un nouveau client et de calculer la superficie épandable.
 
-## Télécharger le projet démo
+## 1. Télécharger le projet démo
 
 
 <iframe src="https://drive.google.com/embeddedfolderview?id=1XXKXesdTfglVrqOAHMuY6uvCyp07pcso#list" width="100%" height="500" frameborder="0"title=”Projet démo par région administrative"></iframe>
 
-## Dézipper le projet démo
+## 2. Dézipper le projet démo
 
 
-## Dupliquer le client démo
+## 3. Dupliquer le client démo
 
-## Ouvrir le projet
+## 4. Ouvrir le projet
  
-## Description de l'information dans le projet
+## 5. Description de l'information dans le projet
 
-## Sélectionner les parcelels du client
+## 6. Sélectionner les parcelels du client
 
-## Copier-coller dans la couche plan de ferme
+## 7. Copier-coller dans la couche plan de ferme
 
-## Numériser les contraintes (puits, fossé, cours d'eau)
+## 8. Numériser les contraintes (puits, fossé, cours d'eau)
   
-## Charger le modèle "zone_tampon"
+## 9. Charger le modèle "zone_tampon"
 
-## Utiliser le modèle "zone_tampon"
+## 10. Utiliser le modèle "zone_tampon"
 
-## Copier-coller les entités
+## 11. Copier-coller les entités
 
-## Supprimer les entités précédentes
+## 12. Supprimer les entités précédentes
 
-## Nommer les champs
+## 13. Renommer les champs
 
-## Ouvrir la mise en page
+## 14. Enregistrer la couche et supprimer les couches temporaires
 
-## Prendre une des mises en page
+## 15. Ouvrir la mise en page
 
-## Replacer la carte
+## 16. Prendre un des modèles de mise en page
 
-## Imprimer en PDF
+## 17. Replacer la carte
+
+## 18. Modifier l'information
+
+## 19. Imprimer en PDF
  
+## 20. Enregistrer le projet
