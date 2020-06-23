@@ -70,7 +70,7 @@ Dans la couche plan de ferme, nous avons l'information suivante:
 |  ville|  Nom de la municipalité|
 |  mrc|  Nom de la MRC|
 |  region|  Nom de la région|
-|  lot|  Numéroo de lot|
+|  lot|  Numéro de lot|
 |  zmaisgr|  Zonage système collectif maïs-grain|
 |  zcereeal|  Zonage système collectif céréales et maïs fourrager|
 |  datemod|  Date de la dernière modification|
@@ -181,7 +181,7 @@ Pour les puits et les fossés, il faut les numériser, donc on clique sur la cou
 Pour charger un modèle, on doit ouvrir la boîte à outils. Dans la boîte à outil dans le haut, on clique sur l'icône modèle puis ajoutée un modèle. Dans le dossier commun/script du projet que vous avez téléchargé se trouvent différents modèles, on va aller chercher le modèle zone_tampon.
 
 
-{{< figure library="true" src="gif/chargerscript.gif" title="Chargez le modèle "zone_tampon"" lightbox="true" >}}
+{{< figure library="true" src="gif/chargerscript.gif" title="Chargez le modèle zone_tampon" lightbox="true" >}}
 
 chargerscript
 
