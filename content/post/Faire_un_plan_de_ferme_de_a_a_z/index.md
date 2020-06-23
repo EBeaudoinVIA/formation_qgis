@@ -175,7 +175,7 @@ Pour les puits et les fossés, il faut les numériser, donc on clique sur la cou
 
 {{< figure library="true" src="gif/numeriser_puits_fosse.gif" title="Numérisez les contraintes (puits, fossé, cours d'eau)" lightbox="true" >}}
 
-## 7. Chargez le modèle "zone_tampon"
+## 7. Chargez le modèle zone_tampon
 
 
 Pour charger un modèle, on doit ouvrir la boîte à outils. Dans la boîte à outil dans le haut, on clique sur l'icône modèle puis ajoutée un modèle. Dans le dossier commun/script du projet que vous avez téléchargé se trouvent différents modèles, on va aller chercher le modèle zone_tampon.
@@ -187,12 +187,12 @@ chargerscript
 
 
 
-## 8. Utilisez le modèle "zone_tampon"
+## 8. Utilisez le modèle zone_tampon
 
 Dans la boîte à outils sous modèle-plan de ferme, on double-clique sur zone_tampon. On choisit les couches appropriées et les distances requises. On clique sur exécuter.
 
 
-{{< figure library="true" src="gif/zonetampon.gif" title="Utilisez le modèle "zone_tampon"" lightbox="true" >}}
+{{< figure library="true" src="gif/zonetampon.gif" title="Utilisez le modèle zone_tampon" lightbox="true" >}}
 
 
 ## 9. Copiez-collez les entités et supprimez les entités précédentes
