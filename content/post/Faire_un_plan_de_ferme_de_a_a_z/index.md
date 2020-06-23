@@ -49,7 +49,110 @@ Une fois dézippé, on clique sur le dossier "client_demo", puis on fait copier-
 
 Dans le projet qu'on vient d'ouvrir, nous avons déjà ajouté plusieurs couches. Voici la liste des couches ainsi qu'une brève description.
 
+### Sous-groupe Client
 
+|  Couche|  Description|
+|--:|--:|
+|  plan de ferme|  Couche contenant le contour des champs ainsi que l'information requise pour le logiciel de fertilisation|
+
+
+Dans la couche plan de ferme, nous avons l'information suivante:
+
+|  Colonne|  Description|
+|--:|--:|
+|  client|  Code du client|
+|  ferme|  Nom de l'entreprise ou du groupe de champ|
+|  champ|  Nom de la parcelle|
+|  sup|  Superficie en hectare|
+|  supepnd|  Superficie épandable en hectare|
+|  serie|  Nom de la série de sol|
+|  texture|  Groupe de texture de surface|
+|  ville|  Nom de la municipalité|
+|  mrc|  Nom de la MRC|
+|  region|  Nom de la région|
+|  lot|  Numéroo de lot|
+|  zmaisgr|  Zonage système collectif maïs-grain|
+|  zcereeal|  Zonage système collectif céréales et maïs fourrager|
+|  datemod|  Date de la dernière modification|
+|  retpuit|  Superficie retirée en raison d'un puit|
+|  retfoss|  Superficie retirée en raison d'un fossé|
+|  reteau|  Superficie retirée en raison d'un cours d'eau|
+|  rettot|  Superficie retirée totale|
+|  locatio|  Est-ce que la parcelle est louée|
+|  diagramme|  Nom de la page, utilisé pour les atlas|
+|  angleatlas|  Angle de la page dans les atlas|
+|  tri|  Colonne virtuelle servant à trier les champs adéquatement dans les mises en page|
+
+
+### Sous-groupe Commun
+
+|  Couche|  Description|
+|--:|--:|
+|  Base de données client|  Couche contenant l'information sur le client (nom, adresse, etc.)|
+|  Maison|  Couche contenant les contour des maisons|
+|  Lot cadastre rénové|  Couche contenant les limites des lots, mais ne contient pas les numéro de lot, doit être saisie manuellement|
+|  Observation|  Couche contenant des observations ponctuelles faîtes au champ|
+|  Puit|  Couche contenant l'emplacement des puits|
+|  Fossé|  Couche contenant l'emplacement des fossés|
+|  Amas|  Couche contenant l'emplacement des amas|
+
+### Sous-groupe Parcelles agricoles
+
+
+|  Couche|  Description|
+|--:|--:|
+|  Parcelles agricoles|  Couche contenant la Base de données des parcelles et productions agricoles déclarées de la FADQ ainsi que d'autres information|
+
+
+### Sous-groupe Hydrologie
+
+
+|  Couche|  Description|
+|--:|--:|
+|  Cours d'eau|  Couche contenant les entités linéaire de la Géobase du réseau hydrographique du Québec|
+|  Cours d'eau SIGA|  Couche vide servant à ceux qui auraient leurs propre couche de cours d'eau|
+|  Surface eau|  Couche contenant les entités polygones de la Géobase du réseau hydrographique du Québec|
+|  Surface eau SIGA|  Couche vide servant à ceux qui auraient leurs propre couche de Surface eau|
+
+### Sous-groupe Milieux Humides (WMS)
+
+|  Couche|  Description|
+|--:|--:|
+|  Milieux humides potentiels|  Couche WMS des milieux humides potentiels|
+
+
+
+### Sous-groupe Limites administratives (WMS)
+
+|  Couche|  Description|
+|--:|--:|
+|  Routes|  Couche WMS des routes|
+|  Adresse|  Couche WMS des Adresses|
+|  Municipalité|  Couche WMS des municipalité|
+
+### Sous-groupe Cadastre (WMS)
+
+|  Couche|  Description|
+|--:|--:|
+|  Cadastre rénové|  Couche WMS du cadastre rénové|
+|  Compilation cadastrale|  Couche WMS des lots avant la rénovation du cadastre|
+
+### Sous-groupe Atlas
+
+|  Couche|  Description|
+|--:|--:|
+|  Atlas|  Couche virtuelle servant dans la génération d'atlas|
+
+
+### Sous-groupe Fond de carte (WMS)
+
+|  Couche|  Description|
+|--:|--:|
+|  Orthophoto 2018|  Orthophoto du québec datant de 2018|
+|  Carte de base du gouv. du Québec|  Carte de base tel que présente sur différentes carte du gouvernement du Québec|
+|  Bing virtualearth|  Fond de carte satellite de Bing|
+|  Google map, satellite, hybride|  Fond de carte satellite de Google|
+|  Esri satellite|  Fond de carte satellite de ESRI|
 
 
 
@@ -67,7 +170,7 @@ Pour ajouter des parcelles à notre plan de ferme du client, on clique sur parce
 
 ## 6. Numérisez les contraintes (puits, fossé, cours d'eau)
 
-Pour les puits et les fossés, il faut les numériser, donc on clique sur la couche appropriée, et on ajoute des entités. Pour les cours d'eau, la couche de cours d'eau de ... est déjà dans le projet, vous pourriez la modifié si vous le désirez.
+Pour les puits et les fossés, il faut les numériser, donc on clique sur la couche appropriée, et on ajoute des entités. Pour les cours d'eau, la couche de cours d'eau de la Géobase du réseau hydrographique du Québec est déjà dans le projet, vous pourriez la modifier si vous le désirez.
 
 
 {{< figure library="true" src="gif/numeriser_puits_fosse.gif" title="Numérisez les contraintes (puits, fossé, cours d'eau)" lightbox="true" >}}
