@@ -23,6 +23,9 @@ Pour faciliter votre travail dans QGIS, nous avons préparé des projets pré-co
 
 
 
+
+
+
 {{< figure library="true" src="gif/telecharger_modele.gif" title="Téléchargez un modèle" lightbox="true" >}}
 
 
@@ -41,6 +44,9 @@ Avant de travailler avec le projet, il faut le dézipper. Cliquer droit sur le f
 ## 3. Dupliquez le client démo et Ouvrez le projet
 
 Une fois dézippé, on clique sur le dossier "client_demo", puis on fait copier-coller pour le dupliquer. On le renomme avec le nom de notre client.Dans le dossier nouvellement créer, on renomme le projet "client_demo.qgz" pour le nom de notre client. Ensuite on double-clique dessus pour l'ouvrir. 
+
+
+Lorsqu'on place le dossier client_demo à l'endroit approprié, QGIS va demandé où se trouvent les données. Il suffit de remplacer le nom du dossier par le nom du dossier où se trouvent les données dontenue dans le dossier commun.
 
 
 
@@ -156,6 +162,7 @@ Dans la couche plan de ferme, nous avons l'information suivante:
 
 
 
+
 ## 5. Sélectionnez les parcelles du client et copiez-collez les dans plan de ferme
 
 
@@ -165,6 +172,8 @@ Pour ajouter des parcelles à notre plan de ferme du client, on clique sur parce
 {{< figure library="true" src="gif/selection_parcelle.gif" title="Sélectionnez les parcelles du client et copiez-collez les dans plan de ferme" lightbox="true" >}}
 
 
+
+Si vous avez un shapefile contenant les parcelles de votre client (FADQ, SIGA, etc.), vous devriez charger ce fichier dans QGIS. Une fois que vous vous êtes assuré que les parcelles sont au bon endroit, utilisez le script "importer plan de ferme". Ce script renommera les colonnes et tentera d'aller chercher l'information contenues dans la couche parcelle agricole. Une fois exécuté, vous pouvez copier-coller les entités de la couche "À enregistrer" vers la couche plan de ferme. 
 
 
 
